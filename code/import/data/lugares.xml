@@ -1,0 +1,1184 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Biblioteca Villena</LastAuthor>
+  <Created>2012-03-13T21:16:05Z</Created>
+  <LastSaved>2012-03-14T15:29:25Z</LastSaved>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>161</TabRatio>
+  <AcceptLabelsInFormulas/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#00FFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Hoja1">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="352" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="192.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="254"/>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Lugares</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Acera del Louvre</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Acueducto de Albear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Afganistán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">África</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">África del Sur</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alameda de Paula</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alemania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">América Central</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">América del Norte</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">América del Sur</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">América Latina</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Andalucía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Angola</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Antigua y Barbuda</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Antillas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Antillas Británicas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Antillas Francesas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Antillas Holandesas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Arabia Saudí</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Argelia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Argentina</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Armenia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Artemisa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aruba</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Asia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Asturias</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Australia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Austria</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Avenida de Italia (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Avenida de Los Presidentes (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Avenida del Puerto</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Avenida Salvador Allende (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ayuntamiento de La Habana  (Lugar)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Azerbaiyan</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bahamas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bahía de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bahrain</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Banes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bangladesh</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Baracoa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Barbados</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Barcelona</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Barrio Chino</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bayamo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bejucal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Belascoaín (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bélgica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Belice</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Benin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Berlín</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bermudas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bielorrusia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bolivia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bosnia-Herzegovina</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Botsuana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Brasil</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bulgaria</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burkina Faso</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burundi</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bután</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cabaiguán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cabo Verde</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cádiz</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Calzada de Diez de Octubre (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Camagüey</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Camajuaní</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Camerún</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canadá</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canal de Albear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canal de Panamá</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Capitolio [de La Habana]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Caracas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cárdenas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Carlos III (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cartagena de Indias</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Castillo de Atarés</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Castillo de la Punta</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Castillo de la Real Fuerza</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Castillo del Morro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Castillo del Príncipe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cataluña</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cayo Hueso  (Estados Unidos)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Cementerio chino</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cementerio de Colón</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cementerio de Espada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cementerio de Santa Efigenia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Cementerio Judío</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Centro Asturiano</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Centro Gallego</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Centro Histórico de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Chad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Checoslovaquia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Chicago</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Chile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">China</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Chipre</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ciego de Ávila</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ciénaga de Zapata</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cienfuegos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ciudad de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colegio de Belén</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colegio El Salvador</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colombia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Comores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Congo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Corea</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Costa de Marfil</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Costa Rica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Croacia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cruces</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cuartel de Bayamo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cuartel Moncada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cuzco</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dinamarca</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dominica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ecuador</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Egipto</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">El Caribe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">El Salvador</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">El Templete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emiratos Árabes Unidos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Eritrea</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Escambray</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Escocia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Eslovaquia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Estonia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Etiopía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Europa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fernando Poo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filipinas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Finlandia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Florida (Estados Unidos)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fortaleza de San Carlos de La Cabaña  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Francia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">G (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gabón</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Galiano (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Galicia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gambia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Georgia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ghana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gibraltar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ginebra</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gran Bretaña</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Granada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Granma (Provincia)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Grecia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Groenlandia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guadalupe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guáimaro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guanabacoa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guantánamo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guatemala</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guinea</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guinea Bissau</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guinea Ecuatorial</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Güines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guyana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Guyana Francesa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Habana Vieja</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Haití</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hispanoamérica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Holguín</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Honduras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hotel Ambos Mundos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hotel Inglaterra</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hotel Nacional de Cuba</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hungría</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Iberoamerica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">India</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indonesia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Infanta (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inglaterra</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Irán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Iraq</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Irlanda</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Isla de la Juventud</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Islas Baleares</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Islas Caimán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Islas Canarias</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Israel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Italia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jamaica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Japón</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jimaguayú</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jordania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Kampuchea</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Kazajstán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Kenya</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Kirguistán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Kuwait</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">La Española (Hasta 1844)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">La Habana (Provincia)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">La Yaya</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Laos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Las Tunas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Las Villas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Letonia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Líbano</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Liberia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Libia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lituania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Luisiana (Estados Unidos)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Luxemburgo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Madagascar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Madrid</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Malasia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Malawi</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Malecón habanero</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mali</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Malta</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Malvinas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manzana de Gómez</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manzanillo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Marruecos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Martinica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Matanzas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mauritania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">México</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Micronesia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Moldavia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mónaco</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mongolia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Montevideo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Morón</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Moscú</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mozambique</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Museo de la Ciudad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Museo de la Revolución</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Museo del Prado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Museo Nacional de Bellas Artes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Namibia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nepal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nicaragua</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nigeria</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Noruega</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nueva Caledonia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nueva York</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nueva Zelandia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Obispo (Calle)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Observatorio de Belén</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Oceanía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Océano Atlántico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Océano Índico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Oceáno Pacífico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Omán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Oriente</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Oriente (Cuba)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">País Vasco</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Países Bajos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pakistán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Palacio de los Capitanes Generales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Palacio del Segundo Cabo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Palacio Presidencial</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Palestina</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Panamá</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paraguay</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">París</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Parroquial Mayor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pascua (Isla)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paseo del Prado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Perú</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pinar del Río</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Planeta Tierra</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Playa Girón</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plaza de Armas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plaza de La Catedral</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plaza de La Revolución</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plaza de San Francisco de Asís</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plaza del Cristo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plaza Vieja</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Polinesia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Polinesia Francesa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Polonia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Portugal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Puerto Rico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Quebec</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Quinta de los Molinos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Quito</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Real Arsenal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Regla (Municipio)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Remedios</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">República Dominicana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Río Almendares</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Roma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ruanda</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rumania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rusia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sahara Occidental</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">San Cristóbal de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">San Antonio de los Baños</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sancti Spíritus</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">San Salvador del Bayamo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santa Clara</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santa Lucía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santa María del Puerto del Príncipe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santa María del Rosario</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santiago de Cuba</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santo Domingo (Capital)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sao Tomé y Príncipe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seminario de San Carlos y San Ambrosio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Senegal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sevilla</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sierra Leona</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sierra Maestra</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Singapur</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Siria</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Somalia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sri Lanka</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sudáfrica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sudán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Suecia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Suiza</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Surinam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tailandia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Taiwan</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tampa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tanzania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tayikistán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Trinidad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Trinidad y Tobago</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Túnez</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Turkmenistán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Turquía</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ucrania</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Universidad de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">URSS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Uruguay</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Uzbekistán</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Varadero</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Vaticano (Ciudad)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Vaticano (Residencia Papal)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Venezuela</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Vietnam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nuestra Señora de la Asunción de Baracoa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nuestra Señora de la Santísima Trinidad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Villa Clara</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Vuelta  Abajo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Washington</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Yugoslavia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Zanja Real</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Fernando Poo (geográfico)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Capitolio de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Centro Histórico de La Habana</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Oratorio San Felipe Neri</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12Página &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hoja2">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60.75"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12Página &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>60</PageBreakZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hoja3">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60.75"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12Página &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>60</PageBreakZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

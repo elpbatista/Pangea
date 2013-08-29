@@ -1,0 +1,343 @@
+<?php
+
+include_once dirname ( __FILE__ ) . '/../../core/dao/GenericDAO.php';
+
+class SchemaDAO extends GenericDAO{
+	
+
+
+	function SearchDAO() {
+		parent::GenericDAO ();
+	}	
+	
+	public function getSchemasNamespace(){
+		
+		$arrayResult = array();
+
+		$query = "select prefix, namespace from schema";
+		
+		$result = pg_query($this->dbConn,$query);
+		$count = pg_num_rows($result);
+		
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$arrayResult[$row['prefix']] = $row['namespace'];			
+		}
+			
+		pg_free_result($result);
+		
+		
+		
+		return $arrayResult;
+	}
+	
+	public function getDefaultNamespace(){
+		
+
+		$query = "select namespace from schema where prefix='pangea'";
+		
+		$result = pg_query($this->dbConn,$query);
+		$count = pg_num_rows($result);
+		
+		$row = pg_fetch_row($result);
+			
+		pg_free_result($result);
+		
+		return $row;
+	}
+	
+	public function getPropertyDomainRange() {
+		
+		$arrayResult = array();	
+		
+		//$query = "select uri,domain,range,type,label from \"rdf:property\" order by domain, range";
+		$query = "select uri,domain,range,type,label from \"rdf:property\" order by uri, domain, range";
+		
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$arrayResult[$row['uri']]['domain'][] = $row['domain'];
+			$arrayResult[$row['uri']]['range'][] = $row['range'];
+			$arrayResult[$row['uri']]['type'][] = $row['type'];
+			$arrayResult[$row['uri']]['label'][] = $row['label'];
+		}
+			
+		pg_free_result($result);
+		
+		return $arrayResult; 
+	}
+	
+	public function getClassIdentifier() {
+		
+		$result = array();
+		
+		//$query = "select uri from \"rdf:class\" where description = 'uri'";			
+		$query = "select uri from \"rdf:class\" order by uri";
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result[] = $row['uri'];	
+		}
+			
+		pg_free_result($result);
+			
+		return $result;
+	}
+	
+	function ClassEnumeration(){
+		
+		$result = array();
+		
+		$query = "select subject,object from \"owl:enumeration\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result[$row['subject']] = $row['object']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result;
+	}
+	
+	function getClassRestrictionValue (){
+		
+		$result_array = array();
+		
+		$query = "select subject, object, value, type from \"owl:restrictionProperty\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result_array[$i]['subject'] = $row['subject'];
+			$result_array[$i]['property'] = $row['object'];
+			$result_array[$i]['key'] = $row['type'];
+			$result_array[$i]['value'] = $row['value'];
+			
+		}
+			
+		pg_free_result($result);
+		
+		return $result_array;
+	}
+	
+	function getClassRestrictionCardinal(){
+		
+		$result = array();
+		
+		$query = "select subject, object, value, type from \"owl:restrictionCardinality\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result[$row['subject']]['property'][] = $row['object'];
+			$result[$row['subject']]['key'][] = $row['type'];
+			$result[$row['subject']]['value'][] = $row['value'];
+		}
+			
+		pg_free_result($result);
+		
+		return $result;
+	}
+	
+	function ModelClassIntersection(){
+		
+		$result = array();
+		
+		$query = "select subject,object from \"owl:intersectionOf\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result[$row['subject']] = $row['object']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result;
+	}
+	
+	function getModelClassUnion(){
+		
+		$result = array();
+		
+		$query = "select subject,object from \"owl:unionOf\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result[$row['subject']] = $row['object']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result;
+	}
+	
+	function getModelClassComplement(){
+		
+		$result = array();
+		
+		$query = "select subject,object from \"owl:complementOf\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result[$row['subject']] = $row['object']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result;
+	}
+	
+	public function getSubClass() {
+		
+		$result_array = array();
+		
+		$query = "select subject, object from \"rdf:subClassOf\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result_array[$row['subject']] [] = $row['object']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result_array;
+	}
+		
+	public function getProperties(){
+		
+		$result_array = array();
+		
+		$query = "select uri from \"rdf:property\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result_array[] = $row['uri'];	
+		}
+			
+		pg_free_result($result);
+		
+		return $result_array;
+	}
+	
+	public function getSubProperties(){
+		
+		$result_array = array();
+		
+		$query = "select subject, object from \"rdf:subPropertyOf\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result_array[$row['subject']] [] = $row['object']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result_array;
+	}
+	
+	public function getInverse(){
+		
+		$result_array = array();
+		
+		$query = "select subject,object from \"owl:inverseOf\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result_array[$row['subject']] = $row['object']; 	
+		}
+		
+		pg_free_result($result);
+		
+		return $result_array;
+	}
+	
+	public function getLabeling(){
+		
+		$result_array = array();
+		
+		$query = "select uri,label from \"rdf:resource\"";			
+		$result = pg_query($this->dbConn,$query);
+			
+		$count = pg_num_rows($result);
+		for ($i = 0; $i < $count; $i++) 
+		{
+			$row = pg_fetch_array($result);
+			
+			$result_array[$row['uri']] = $row['label']; 	
+		}
+			
+		pg_free_result($result);
+		
+		return $result_array;
+	}
+}
+
+//PangeaRDFSchemaDAO::getInstance()->getSubClass();
+
+
+
+
+/*
+abstract class TemplateMethod{
+	
+	public abstract function template();
+
+	public function doIt($query, $dbConn){
+		$result = array();
+		$result = pg_query($dbConn,$query);	
+		$count = pg_num_rows($result);
+		$this->template();
+		pg_free_result($result);
+		return $result;
+	}
+}*/
+?>

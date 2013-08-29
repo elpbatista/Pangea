@@ -1,0 +1,6 @@
+Adultos 	 409
+Infantil 	 268
+General 	 101
+Boloña 	 23
+Referencia 	 10
+Hemeroteca 	 39

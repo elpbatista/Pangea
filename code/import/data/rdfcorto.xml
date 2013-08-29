@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.ohc.cu/2012/pangea-ontology/pangea#" xmlns:pangea="http://www.ohc.cu/2012/pangea-ontology/pangea#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:frbr="http://purl.org/vocab/frbr/core#">
+  <owl:Ontology rdf:about="">
+    <rdfs:comment>Pangea Owl Ontology</rdfs:comment>
+    <owl:priorVersion rdf:resource="http://www.w3.org/TR/2003/PR-owl-guide-20031215/wine"/>
+    <rdfs:label>Pangea Ontology</rdfs:label>
+  </owl:Ontology>
+  <owl:Class rdf:ID="pangea:DescriptorEntity">
+    <rdf:subClassOf rdf:resource="owl:Class"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Image">
+    <rdf:subClassOf rdf:resource="pangea:DescriptorEntity"/>
+    <owl:equivalent rdf:resource="hendrix:Image"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Subject">
+    <rdf:subClassOf rdf:resource="pangea:DescriptorEntity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Piedra_calcárea">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Piedra"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Piedras_preciosas">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Piedra"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Piedras_semipreciosas">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Piedra"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Mármol">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Piedras_semipreciosas"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Piel">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Materiales"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Tejido">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Materiales"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Zinc">
+    <rdf:subClassOf rdf:resource="pangea:Nomenclator_Materiales"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pangea:Nomenclator_Estado_de_conservación">
+    <rdf:subClassOf rdf:resource="pangea:DescriptorEntity"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="pangea:hasAvailability">
+    <rdfs:domain rdf:resource="frbr:Item"/>
+    <rdfs:range rdf:resource="pangea:Availability"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="pangea:hasAdquisitionWay">
+    <rdfs:domain rdf:resource="frbr:Item"/>
+    <rdfs:range rdf:resource="pangea:AdquisitionWay"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="foaf:depiction">
+    <rdfs:domain rdf:resource="frbr:Endeavour"/>
+    <rdfs:range rdf:resource="pangea:Image"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="foaf:img">
+    <rdfs:domain rdf:resource="frbr:Endeavour"/>
+    <rdfs:range rdf:resource="pangea:Image"/>
+    <rdf:subPropertyOf rdf:resource="foaf:depiction"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="foaf:depicts">
+    <rdfs:domain rdf:resource="pangea:Image"/>
+    <rdfs:range rdf:resource="frbr:Endeavour"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+    <owl:inverseOf rdf:resource="foaf:depiction"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="foaf:thumbnail">
+    <rdfs:domain rdf:resource="frbr:Endeavour"/>
+    <rdfs:range rdf:resource="pangea:Image"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:inScheme">
+    <rdfs:domain rdf:resource="frbr:Concept"/>
+    <rdfs:range rdf:resource="skos:ConceptScheme"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:hasTopConcept">
+    <rdfs:domain rdf:resource="skos:ConceptScheme"/>
+    <rdfs:range rdf:resource="frbr:Concept"/>
+    <rdf:subPropertyOf rdf:resource="owl:ObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:topConceptOf">
+    <rdfs:domain rdf:resource="frbr:Concept"/>
+    <rdfs:range rdf:resource="skos:ConceptScheme"/>
+    <rdf:subPropertyOf rdf:resource="skos:inScheme"/>
+    <owl:inverseOf rdf:resource="skos:hasTopConcept"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:broaderTransitive">
+    <rdfs:domain rdf:resource="frbr:Concept"/>
+    <rdfs:range rdf:resource="frbr:Concept"/>
+    <rdf:subPropertyOf rdf:resource="skos:semanticRelation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:broader">
+    <rdfs:domain rdf:resource="frbr:Concept"/>
+    <rdfs:range rdf:resource="frbr:Concept"/>
+    <rdf:subPropertyOf rdf:resource="skos:broaderTransitive"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:narrowerTransitive">
+    <rdfs:domain rdf:resource="frbr:Concept"/>
+    <rdfs:range rdf:resource="frbr:Concept"/>
+    <rdf:subPropertyOf rdf:resource="skos:semanticRelation"/>
+    <owl:inverseOf rdf:resource="skos:broaderTransitive"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="skos:narrower">
+    <rdfs:domain rdf:resource="frbr:Concept"/>
+    <rdfs:range rdf:resource="frbr:Concept"/>
+    <rdf:subPropertyOf rdf:resource="skos:narrowerTransitive"/>
+    <owl:inverseOf rdf:resource="skos:broader"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="pangea:scientificName">
+    <rdfs:domain rdf:resource="frbr:Core"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="pangea:literalString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="pangea:name">
+    <rdfs:domain rdf:resource="frbr:Core"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="pangea:literalString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="pangea:firstName">
+    <rdfs:domain rdf:resource="frbr:Core"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="pangea:literalString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="pangea:lastName">
+    <rdfs:domain rdf:resource="frbr:Person"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="pangea:literalString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="rdfs:label">
+    <rdfs:domain rdf:resource="pangea"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="pangea:literalString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="skos:prefLabel">
+    <rdfs:domain rdf:resource="pangea"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="rdfs:label"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="skos:altLabel">
+    <rdfs:domain rdf:resource="pangea"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="rdfs:label"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="skos:hiddenLabel">
+    <rdfs:domain rdf:resource="pangea"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdf:subPropertyOf rdf:resource="rdfs:label"/>
+  </owl:DatatypeProperty>
+  <frbr:Manifestation rdf:ID="0">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:exemplar rdf:resource="999993"/>
+    <frbr:creator rdf:resource="1000007"/>
+    <frbr:embodimentOf rdf:resource="1000011"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="5">
+    <pangea:hasForm rdf:resource="502714"/>
+    <pangea:printerPlace rdf:resource="502187"/>
+    <pangea:editorial rdf:resource="1000038"/>
+    <frbr:embodimentOf rdf:resource="1000042"/>
+    <frbr:creator rdf:resource="708664"/>
+    <frbr:exemplar rdf:resource="1000020"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="10">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:embodimentOf rdf:resource="1000071"/>
+    <pangea:editorial rdf:resource="1000038"/>
+    <frbr:exemplar rdf:resource="1000051"/>
+    <frbr:creator rdf:resource="708664"/>
+    <pangea:printerPlace rdf:resource="502187"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="14">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:exemplar rdf:resource="1000080"/>
+    <pangea:editorial rdf:resource="1000100"/>
+    <pangea:printerPlace rdf:resource="502187"/>
+    <frbr:creator rdf:resource="1000094"/>
+    <frbr:embodimentOf rdf:resource="1000104"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="20">
+    <pangea:hasForm rdf:resource="502714"/>
+    <pangea:printerPlace rdf:resource="502013"/>
+    <pangea:editorial rdf:resource="1000131"/>
+    <frbr:embodimentOf rdf:resource="1000135"/>
+    <frbr:creator rdf:resource="989248"/>
+    <frbr:exemplar rdf:resource="1000113"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="25">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:embodimentOf rdf:resource="1000168"/>
+    <pangea:editorial rdf:resource="1000164"/>
+    <frbr:exemplar rdf:resource="1000144"/>
+    <frbr:creator rdf:resource="1000158"/>
+    <pangea:printerPlace rdf:resource="502013"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="31">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:exemplar rdf:resource="1000177"/>
+    <pangea:editorial rdf:resource="1000195"/>
+    <frbr:embodimentOf rdf:resource="1000199"/>
+    <frbr:creator rdf:resource="1000191"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="37">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:exemplar rdf:resource="1000209"/>
+    <pangea:editorial rdf:resource="1000195"/>
+    <frbr:embodimentOf rdf:resource="1000227"/>
+    <frbr:creator rdf:resource="1000191"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="41">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:exemplar rdf:resource="1000237"/>
+    <pangea:editorial rdf:resource="699432"/>
+    <pangea:printerPlace rdf:resource="501920"/>
+    <frbr:creator rdf:resource="1000251"/>
+    <frbr:embodimentOf rdf:resource="1000259"/>
+  </frbr:Manifestation>
+  <frbr:Manifestation rdf:ID="46">
+    <pangea:hasForm rdf:resource="502714"/>
+    <frbr:exemplar rdf:resource="1000268"/>
+    <pangea:editorial rdf:resource="699432"/>
+    <frbr:embodimentOf rdf:resource="1000288"/>
+    <frbr:creator rdf:resource="1000251"/>
+    <pangea:printerPlace rdf:resource="501920"/>
+  </frbr:Manifestation>
+  <frbr:Item rdf:ID="75992">
+    <frbr:exemplarOf rdf:resource="897902"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="75998">
+    <frbr:exemplarOf rdf:resource="897946"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="76004">
+    <frbr:exemplarOf rdf:resource="897991"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="76010">
+    <frbr:exemplarOf rdf:resource="898035"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="76015">
+    <frbr:exemplarOf rdf:resource="898081"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="76021">
+    <frbr:exemplarOf rdf:resource="898125"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="76028">
+    <frbr:exemplarOf rdf:resource="898174"/>
+    <pangea:hasCollection rdf:resource="896078"/>
+    <pangea:hasAdquisitionWay rdf:resource="502754"/>
+    <frbr:owner rdf:resource="498696"/>
+    <pangea:hasAvailability rdf:resource="502651"/>
+  </frbr:Item>
+  <frbr:Item rdf:ID="119282">
+    <pangea:numberStock xml:lang="" rdf:datatype="">490</pangea:numberStock>
+    <pangea:location xml:lang="" rdf:datatype="">A-65</pangea:location>
+    <pangea:priceMn xml:lang="" rdf:datatype="">1</pangea:priceMn>
+    <pangea:itemNote xml:lang="" rdf:datatype="">Dedicatoria de Tom Tirabosco a la Biblioteca de Vitrina de Valonia</pangea:itemNote>
+    <pangea:entryDate xml:lang="" rdf:datatype="">01/07/2010</pangea:entryDate>
+    <pangea:adquisitionNote xml:lang="" rdf:datatype="">Donación de Tom Tirabosco</pangea:adquisitionNote>
+  </frbr:Item>
+  <frbr:Person rdf:ID="107063">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Cárdenas de Herrera,  Josefina</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107066">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Torre,  José María de la</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107069">
+    <skos:prefLabel xml:lang="" rdf:datatype="">González,  Francisco</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107072">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Poey,  Felipe</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107078">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Garriga,  Joseph</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107085">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Saavedra Mendez,  Jorge</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107107">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Cuervo Calvo,  Jorge L.</skos:prefLabel>
+  </frbr:Person>
+  <frbr:Person rdf:ID="107216">
+    <skos:prefLabel xml:lang="" rdf:datatype="">Berenguer Alonso,  Magín</skos:prefLabel>
+  </frbr:Person>
+  <skosxl:Label rdf:ID="15979">
+    <skosxl:prefLabelOf rdf:resource="488589"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15981">
+    <skosxl:prefLabelOf rdf:resource="488599"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15983">
+    <skosxl:prefLabelOf rdf:resource="488607"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15985">
+    <skosxl:prefLabelOf rdf:resource="488615"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15987">
+    <skosxl:prefLabelOf rdf:resource="488625"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15989">
+    <skosxl:prefLabelOf rdf:resource="488633"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15991">
+    <skosxl:prefLabelOf rdf:resource="488641"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15993">
+    <skosxl:prefLabelOf rdf:resource="488649"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15995">
+    <skosxl:prefLabelOf rdf:resource="488657"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15997">
+    <skosxl:prefLabelOf rdf:resource="488665"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="15999">
+    <skosxl:prefLabelOf rdf:resource="488675"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="16001">
+    <skosxl:prefLabelOf rdf:resource="488683"/>
+  </skosxl:Label>
+  <skosxl:Label rdf:ID="16003">
+    <skosxl:prefLabelOf rdf:resource="488694"/>
+  </skosxl:Label>
+  <pangea:AdquisitionWay rdf:ID="34949">
+    <skosxl:prefLabel rdf:resource="612783"/>
+  </pangea:AdquisitionWay>
+  <pangea:AdquisitionWay rdf:ID="34988">
+    <skosxl:prefLabel rdf:resource="613025"/>
+  </pangea:AdquisitionWay>
+  <pangea:AdquisitionWay rdf:ID="35304">
+    <skosxl:prefLabel rdf:resource="615233"/>
+  </pangea:AdquisitionWay>
+  <pangea:AdquisitionWay rdf:ID="35310">
+    <skosxl:prefLabel rdf:resource="615269"/>
+  </pangea:AdquisitionWay>
+  <pangea:AdquisitionWay rdf:ID="35358">
+    <skosxl:prefLabel rdf:resource="615604"/>
+  </pangea:AdquisitionWay>
+  <frbr:Concept rdf:ID="42377">
+    <frbr:relatedSubjectOf rdf:resource="667506"/>
+    <skosxl:prefLabel rdf:resource="667507"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42396">
+    <frbr:relatedSubjectOf rdf:resource="1018635"/>
+    <skosxl:prefLabel rdf:resource="667680"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42407">
+    <frbr:relatedSubjectOf rdf:resource="667770"/>
+    <skosxl:prefLabel rdf:resource="667771"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42534">
+    <frbr:relatedSubjectOf rdf:resource="876698"/>
+    <skosxl:prefLabel rdf:resource="668887"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42593">
+    <frbr:relatedSubjectOf rdf:resource="669425"/>
+    <skosxl:prefLabel rdf:resource="669432"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42681">
+    <frbr:relatedSubjectOf rdf:resource="671012"/>
+    <skosxl:prefLabel rdf:resource="512556"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42687">
+    <frbr:relatedSubjectOf rdf:resource="877917"/>
+    <skosxl:prefLabel rdf:resource="670355"/>
+  </frbr:Concept>
+  <frbr:Concept rdf:ID="42793">
+    <frbr:relatedSubjectOf rdf:resource="671115"/>
+    <skosxl:prefLabel rdf:resource="671116"/>
+  </frbr:Concept>
+  <pangea:Nomenclator_Obras_Escogidas rdf:ID="17542">
+    <skosxl:prefLabel rdf:resource="485733"/>
+  </pangea:Nomenclator_Obras_Escogidas>
+  <pangea:Nomenclator_Almanaque rdf:ID="17549">
+    <skosxl:prefLabel rdf:resource="492058"/>
+  </pangea:Nomenclator_Almanaque>
+  <pangea:Nomenclator_Obra_de_referencia rdf:ID="17550">
+    <skosxl:prefLabel rdf:resource="492066"/>
+  </pangea:Nomenclator_Obra_de_referencia>
+  <pangea:Nomenclator_Obra_de_referencia rdf:ID="17551">
+    <skosxl:prefLabel rdf:resource="492074"/>
+  </pangea:Nomenclator_Obra_de_referencia>
+  <pangea:Nomenclator_Obra_de_referencia rdf:ID="17552">
+    <skosxl:prefLabel rdf:resource="492082"/>
+  </pangea:Nomenclator_Obra_de_referencia>
+  <pangea:Nomenclator_Obra_de_referencia rdf:ID="17553">
+    <skosxl:prefLabel rdf:resource="492090"/>
+  </pangea:Nomenclator_Obra_de_referencia>
+  <pangea:Nomenclator_Obra_de_referencia rdf:ID="17554">
+    <skosxl:prefLabel rdf:resource="492098"/>
+  </pangea:Nomenclator_Obra_de_referencia>
+  <pangea:Nomenclator_Obra_de_referencia rdf:ID="17557">
+    <skosxl:prefLabel rdf:resource="492132"/>
+  </pangea:Nomenclator_Obra_de_referencia>
+  <pangea:Subject rdf:ID="18146">
+    <pangea:subjectOf rdf:resource="499065"/>
+    <skosxl:prefLabel rdf:resource="499071"/>
+  </pangea:Subject>
+  <pangea:Subject rdf:ID="18163">
+    <skosxl:prefLabel rdf:resource="477993"/>
+    <pangea:subjectOf rdf:resource="499187"/>
+  </pangea:Subject>
+  <pangea:Subject rdf:ID="18168">
+    <skosxl:prefLabel rdf:resource="482982"/>
+    <pangea:subjectOf rdf:resource="499237"/>
+  </pangea:Subject>
+  <pangea:Subject rdf:ID="18173">
+    <pangea:subjectOf rdf:resource="499242"/>
+    <skosxl:prefLabel rdf:resource="499247"/>
+  </pangea:Subject>
+  <pangea:Subject rdf:ID="18175">
+    <skosxl:prefLabel rdf:resource="490736"/>
+    <pangea:subjectOf rdf:resource="499254"/>
+  </pangea:Subject>
+  <pangea:Subject rdf:ID="18433">
+    <pangea:subjectOf rdf:resource="501587"/>
+    <skosxl:prefLabel rdf:resource="489772"/>
+  </pangea:Subject>
+</rdf:RDF>

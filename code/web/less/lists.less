@@ -1,0 +1,51 @@
+// Unordered and Ordered lists
+ul, ol {
+  //margin: 0 0 @baseline 25px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+  //margin-left: @gridGutterWidth / 2; 
+}
+ul {
+  list-style: none;
+}
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+ul.unstyled {
+  list-style: none;
+  margin-left: 0;
+}
+li {
+	line-height: @baseline;
+}
+
+// Description Lists
+dl {
+  overflow: hidden;
+  dt, dd {
+    //padding: 0 0 .5em 0;
+		line-height: @baseline;
+		//float: left;
+  }
+  dt {
+  	margin-right: .5em;
+  	float: left;
+  	clear: left;
+  	color: @grayLight;
+  }
+  dd {
+    padding: 0 0 .5em 0;
+    h1 {
+			font-size: 1.5em;
+			width: 100%;
+		}
+    &.head {
+    	min-height: 150px;
+    }
+  }
+}

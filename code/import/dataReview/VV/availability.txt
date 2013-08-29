@@ -1,0 +1,5 @@
+Disponible sólo para adultos 	 367
+No disponible en sala 	 14
+Disponible en sala 	 346
+Disponible para niños 	 261
+Baja 	 1

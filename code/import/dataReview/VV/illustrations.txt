@@ -1,0 +1,58 @@
+Dibujos 	 595
+Dibujos; Fotografías 	 24
+Dibujos; Mapas 	 6
+Dibujos; Fotografías; Retratos 	 1
+DIbujos 	 4
+Dibujos; Acuarelas 	 10
+Dibujos; Fotografías; Mapas; Planos 	 1
+Dibujos; Fotografías; Mapas 	 2
+Dibujos; Caricaturas; Fotografías 	 2
+Caricaturas 	 2
+Dibujos; Grabados 	 13
+Grabados 	 13
+Grabados; Dibujos 	 2
+Acuarelas; Dibujos; Grabados 	 1
+Fotografías 	 42
+Fotografías; Mapas 	 38
+Mapas; Fotografías 	 3
+Fotografías; Grabados 	 1
+Fotografías; Dibujos 	 5
+Fotografías; Mapas; Croquis 	 1
+Grabados; Acuarelas 	 1
+Acuarelas; Dibujos 	 7
+Fotografías; Dibujos; Gráficos; Tablas 	 1
+Fotografías; Dibujos; Ilustraciones   ; Mapas 	 1
+Tablas; Fotografías; Mapas 	 2
+Tablas; Gráficos; Fotografías; Mapas; Planos 	 1
+Fotografías; Mapas; Tablas 	 10
+Fotografías; Tablas; Mapas 	 1
+Fotografías; Gráficos; Mapas 	 1
+Fotografías; Mapas; Gráficos 	 1
+Fotografías; Gráficos; Mapas; Tablas 	 1
+Fotografías; Dibujos; Mapas 	 3
+Mapas; Gráficos; Tablas 	 4
+Dibujos; Caricaturas 	 2
+Dibujos; Ilustraciones   ; Fotografías 	 4
+Fotografías; Gráficos 	 3
+Fotografías; Ilustraciones 	 3
+Fotografías; Dibujos; Gráficos 	 1
+Fotografías; Gráficos; Dibujos 	 1
+Fotografías; Ilustraciones; Gráficos; Tablas; Mapas 	 1
+Fotografías; Ilustraciones   ; Mapas; Gráficos 	 1
+Fotografías; Planos; Mapas 	 1
+Dibujos; Caricaturas; Ilustraciones 	 1
+Dibujos; Fotografías; Acuarelas; Caricaturas 	 2
+Dibujos; Fotografías; Caricaturas 	 1
+Dibujos; Caricaturas; Acuarelas; Fotografías 	 1
+Dibujos; Ilustraciones   ; Acuarelas 	 1
+Dibujos; Ilustraciones 	 1
+Ilustraciones   ; Dibujos 	 1
+Caricaturas; Ilustraciones 	 1
+Ilustraciones 	 3
+Dibujos; Retratos; Óleos; Fotografías 	 1
+Ilustraciones   ; Mapas 	 1
+Fotografías; Planos 	 1
+Tablas; Fotografías 	 1
+Fotografías; Mapas; Grabados 	 1
+Ilustraciones   ; Grabados 	 1
+Tablas 	 1

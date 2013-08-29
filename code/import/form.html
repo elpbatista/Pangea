@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<form name="form_import" enctype="multipart/form-data" action="XML2P.php" method="post" target="_blank">
+Archivo a importar:<br/>
+<input type="file" name="filename" onchange="document.form_import.filepath.value=this.value;"><br/><br/>
+Registro inicial: <input type="text" name="value_1" size="8">
+Registro final: <input type="text" name="value_2" size="8">
+Empezar con la BD vac&iacute;a: <input type="checkbox" name="value_3">
+<input type="hidden" name="filepath" value="">
+<input type="submit" value="Ejecutar">
+</form>
+</body>
+</html>

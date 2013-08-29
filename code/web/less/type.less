@@ -1,0 +1,163 @@
+/* Typography.less
+ * Headings, body text, lists, code, and more for a versatile and durable typography system
+ * ---------------------------------------------------------------------------------------- */
+
+// FONTS
+// ---------
+
+@font-face {
+    font-family: 'DejaVuSansBook';
+    src: url('../fonts/DejaVuSans/DejaVuSans-webfont.eot');
+    src: url('../fonts/DejaVuSans/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans/DejaVuSans-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSans/DejaVuSans-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSans/DejaVuSans-webfont.svg#DejaVuSansBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSansBold';
+    src: url('../fonts/DejaVuSans/DejaVuSans-Bold-webfont.eot');
+    src: url('../fonts/DejaVuSans/DejaVuSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSans/DejaVuSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSans/DejaVuSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSans/DejaVuSans-Bold-webfont.svg#DejaVuSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// BODY TEXT
+// ---------
+
+p {
+  #font > .shorthand(normal,inherit,inherit);
+  //margin-bottom: @baseline / 2;
+  small {
+    font-size: @smallfont;
+    color: @grayLight;
+  }
+}
+
+// HEADINGS
+// --------
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;
+	line-height: @baseline * .75;
+  padding-bottom: @baseline * .2;
+  color: @grayLight;
+  a {
+    color: @gray !important;
+    &:hover {
+    	text-decoration: underline;
+    }
+  }
+}
+h1 {
+  color: @grayDark;
+  font-size: 2.2em;
+  letter-spacing: -.07em;
+}
+h2 {
+  font-size: 2em;
+  //padding-bottom: @baseline * .1;
+}
+h3, h4, h5, h6 {
+  line-height: 1.1em;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1.1em;
+}
+h6 {
+  font-size: @basefont;
+  color: @grayLight;
+  text-transform: uppercase;
+}
+
+// COLORS
+// ------
+
+// MISC
+// ----
+
+// Horizontal rules
+hr {
+  margin: 20px 0 19px;
+  border: 0;
+  border-bottom: 1px solid #eee;
+}
+
+// Emphasis
+strong {
+  font-style: inherit;
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.muted {
+  color: @grayLight;
+}
+
+// Blockquotes
+blockquote {
+  margin-bottom: @baseline;
+  border-left: 5px solid #eee;
+  padding-left: 15px;
+  p {
+    #font > .shorthand(300,14px,@baseline);
+    margin-bottom: 0;
+  }
+  small {
+    display: block;
+    #font > .shorthand(300,12px,@baseline);
+    color: @grayLight;
+    &:before {
+      content: '\2014 \00A0';
+    }
+  }
+}
+
+// Addresses
+address {
+  display: block;
+  line-height: @baseline;
+  margin-bottom: @baseline;
+}
+
+// Inline and block code styles
+code, pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Andale Mono, Courier New, monospace;
+  font-size: 12px;
+  .border-radius(3px);
+}
+code {
+  background-color: lighten(@orange, 40%);
+  color: rgba(0,0,0,.75);
+  padding: 1px 3px;
+}
+pre {
+  background-color: #f5f5f5;
+  display: block;
+  padding: (@baseline - 1) / 2;
+  margin: 0 0 @baseline;
+  line-height: @baseline;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  .border-radius(3px);
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+
+}

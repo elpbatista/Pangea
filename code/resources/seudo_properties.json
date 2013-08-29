@@ -1,0 +1,39 @@
+{
+	"title":{
+		"tables":{
+			"frbr:Manifestation":{"type":"range"}
+		},
+		"logic":"AND",
+		"aliases":["titulo","tit"]
+	},
+	"author":{
+		"tables":{
+			"frbr:creator":{"type":"property"}
+		},
+		"aliases":["autor","aut"]
+	},
+	"editorial":{
+		"tables":{
+			"frbr:realizer":{"type":"property"}
+		},
+		"aliases":["publisher","ed."]
+	},
+	"nombre":{
+		"tables":{
+			"skos:prefLabel":{"type":"property"}
+		},
+		"aliases":["name","nom"]
+	},
+	"type":{
+		"tables":{
+			"pangea:hasForm":{"type":"property", "findOnStart":true}
+		},
+		"aliases":["tipo","typ"]
+	},
+	"subject":{
+		"tables":{
+			"frbr:relatedSubject":{"type":"property"}
+		},
+		"aliases":["tema","sub"]
+	}
+}

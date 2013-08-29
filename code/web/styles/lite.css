@@ -1,0 +1,44 @@
+#results {
+	position: relative;
+}
+#authForm {
+	overflow: hidden;
+	width: 350px;
+	position:absolute;
+  top:50%;
+  left: 50%;
+  margin: -160px 0 0 -175px;
+  text-align: center;
+}
+#authForm input, #authForm fieldset{
+  border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+#authForm fieldset {
+	border: 2px solid #9B9B9B !important;
+	padding: 15px 25px;
+}
+#authForm li {
+	padding: 5px 0;
+	overflow: hidden;
+}
+#authForm input {
+	background: #FAFAF6;
+	width: 240px;
+	clear: both;
+	font-size: 1.2em;
+}
+#authForm label {
+	float: left;
+}
+#authForm .btn {
+	border: 2px solid #006D90;
+	background: #FFF;
+	color: #006D90;
+	width: 120px;
+	text-align: center;
+	padding: .2em 0;
+	float: right;
+}

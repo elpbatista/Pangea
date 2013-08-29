@@ -1,0 +1,11 @@
+España 	 332
+Bélgica 	 339
+Francia 	 28
+Cuba 	 106
+Italia 	 2
+Alemania 	 25
+Argentina 	 1
+Chile 	 2
+México 	 9
+Japón 	 2
+Suiza 	 1

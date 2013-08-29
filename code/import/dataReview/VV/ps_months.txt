@@ -1,0 +1,21 @@
+enero 	 1
+febrero-marzo 	 1
+DIciembre 	 3
+Febrero 	 2
+Junio 	 2
+Mayo 	 1
+Enero 	 2
+Septiembre 	 2
+Agosto 	 1
+Marzo 	 4
+Abril-Mayo 	 1
+Junio-Agosto 	 1
+Marzo-Mayo 	 1
+Diciembre, Enero y Febrero 	 6
+Septiembre, Octubre y Noviembre 	 3
+Noviembre 	 1
+Noviembre, Diciembre y Enero 	 1
+Septiembre-Febrero 	 1
+Marzo-Agosto 	 1
+Septiembre-Enero 	 1
+Enero-Diciembre 	 1

@@ -1,0 +1,449 @@
+// CSS Reset
+@import "reset.less";
+
+// Core variables and mixins
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
+// Grid system and page structure
+@import "scaffolding.less";
+
+// Styled patterns and elements
+@import "type.less";
+@import "lists.less";
+@import "forms.less";
+@import "pagination.less";
+//@import "tables.less";
+@import "patterns.less";
+//@import "labels.less";
+
+// Components: common
+//@import "sprites.less";
+@import "elusive-webfont.less";
+@import "navbar.less";
+
+// Utility classes
+@import "utilities.less"; // Has to be last to override when necessary
+
+// mixins
+.text-meta() {
+	font-size: @smallfont;
+	color: @grayLight;
+}
+.dottedbb() {
+	border-bottom: 1px dotted @grayLight;
+	margin-bottom: @gridGutterWidth;
+	padding-bottom: @gridGutterWidth;
+}
+.fixed {
+	position: fixed;
+}
+.heightCol(@columnSpan: 1) {
+  height: (@gridColumnWidth * @columnSpan) + (@gridGutterWidth * (@columnSpan - 1));
+}
+.thumbnail (@columnSpan: 2){
+	@dim:(@gridColumnWidth * @columnSpan) + (@gridGutterWidth * (@columnSpan - 1));
+	.square(@dim);
+	border: 1px solid @grayLighter;
+	text-align: center;
+	line-height: @dim - 3;
+	img {
+		max-width: 100%;
+		max-height: 100%;
+		vertical-align: middle;
+	}
+}
+.thumb {
+	.span2;
+	float: left;
+	.text-meta;
+	img {
+		width: 100%;
+		.box-shadow (1px 1px 5px rgba(0,0,0,.25));
+	}
+}
+//este es el padding de to lo que se menea
+@bordecito : @gridGutterWidth / 2; 
+.entity {
+	//width: 100%;
+	.clearfix();
+	//.dottedbb;
+	//padding: 0 5px 5px 5px;
+	//padding: @baseline / 3;
+	padding: @bordecito;
+	.border-radius(5px);
+	position: relative;
+
+	//margin-bottom: @baseline;
+	.description {
+		//overflow: hidden;
+		font-size: .95em;
+	}
+	.entity ul {
+		//border: none;
+		//clear: both;
+		//margin: @baseline/2 0 0 @gridGutterWidth+@gridColumnWidth; /*una columna y un hueco*/
+	}
+	.thumb {
+		margin-right: @bordecito;
+	}
+	.fncmenubar {
+		.text-meta;
+		.horlist;
+		padding-left: 5px;
+		position: absolute;
+		bottom: @bordecito;
+		right: @bordecito;
+		width: auto;
+	}
+	.tbox-edit{
+		.text-meta;
+		padding-left: 5px;
+		position: absolute;
+		top: @bordecito;
+		right: @bordecito;
+		width: auto;
+		z-index: 500;
+		text-align: right;
+		ul {
+			.horlist;
+			color: black;
+		}
+	}
+	h1 {
+		font-size: 1.75em;
+	}
+	h3 {
+		font-size: 1.25em;
+		padding-bottom: 0;
+	}
+	//_________________________________________
+	&.edit {
+	border: 1px solid @grayLight;
+	.box-shadow (1px 1px 5px rgba(0,0,0,.25));	
+		&.manifestation{
+			background: #f7e7ce;
+		}
+		&.work{
+			background: #ffffc6;
+		}
+		&.expression,
+		&.image,
+		&.text,
+		&.data
+		&.sound,
+		&.performance,
+		&.movingimage,
+		&.serial,
+		&.group
+		{
+			background: #ddddef;
+		}
+		&.item{
+			background: #d6efa5;
+		}
+		&.new{
+			@shadow: inset 0 1px 3px rgba(0,0,0,.6), 0 0 8px rgba(206,74,16,.6);
+  		.box-shadow(@shadow);
+  		border-color: @orange;
+		}
+	}
+		//-----------------------------------------
+}
+
+.entity .icon-remove {
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	cursor:pointer;
+	z-index: 50;
+}
+
+.del,
+.add,
+.next {
+	color: @linkColor;
+	font-size: @labelfont;
+	cursor: pointer;
+}
+
+.gallery {
+	margin-left: -@gridGutterWidth;
+	li {
+		margin-left: @gridGutterWidth;
+		.dottedbb;
+		list-style: none;
+		float: left;
+	}
+}
+
+.box {
+	background: @white;
+	.box-shadow ( 0 3px 7px rgba(0,0,0,.35));
+	padding: @gridGutterWidth;
+	margin: @gridGutterWidth 0;
+	.border-radius(5px);
+	.clearfix();
+	font-size: .95em;		
+	min-height: 300px;
+	ol {
+		list-style-position: inside;
+		.clearfix();
+		.entity {
+			margin-top: -@baseline;
+			padding-left: @gridGutterWidth;
+		}
+	}
+	.entity {
+		padding-bottom: @gridGutterWidth / 2;
+		width: auto;
+	}
+	.thumb {
+		margin-right: @gridGutterWidth / 2;
+	}
+}
+.nbr {
+			font-weight:bold;
+    	font-size: 2em;
+    	color: @grayLighter;
+    	float: left;
+    	text-align: right;
+    	min-width: 4em;
+    	margin-left: -4.5em;
+		}
+
+ol.nbrList {
+	li { 
+		list-style: none;
+		  }
+}
+.focus { 
+	outline: 0;
+  border-color: rgba(82,168,236,.8);
+  @shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+  .box-shadow(@shadow);
+}
+//highlite
+.hlt {
+	background: yellow;
+	.focus
+}
+.ui-draggable-dragging {
+	.focus;
+}
+.ui-state-highlight {
+	.focus;
+}
+.dragme {
+	cursor: move;
+	&:hover {background: rgba(233,146,11,.15);}
+}
+.dropme {
+	.clearfix();
+	.frmBox {
+		background: url(../img/cuadritos.png) no-repeat 0px 0px;
+	}
+}
+
+header {
+	//color: @grayDark;
+	//position: relative;
+	margin-top: @navbarHeight;
+	.box-shadow ( 0 3px 5px rgba(0,0,0,.10));
+	width: 100%;
+	background: lighten(@grayLighter, 15%);
+	z-index: 1000;	
+}
+
+.jumbotron {
+	padding: @gridGutterWidth 0;
+  font-family: DejaVuSansBook, Helvetica, Arial, sans-serif;
+	font-size: @bigfont;
+  p {
+  	letter-spacing: -.04em;
+  	line-height: @baseline * .75;
+  }
+}
+
+#logo {
+	float: left;
+	padding: 5px 5px 5px 0;
+}
+
+// SearchForm
+
+#searchForm{
+	padding: @navbarHeight/6 0;
+	width: @siteWidth;
+	z-index: 2000;
+	fieldset {
+		position: relative;
+  	width: 75%;
+		margin: auto;
+	}
+	legend, label {
+		display: none;
+	}
+	button {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 3px;
+		top: 7px;
+		border: none;
+		background: url(../img/search.png) no-repeat center;
+	}
+	input {
+		.border-radius(5px);
+		height: auto;
+		padding: 5px 0;
+		width: 100%;
+		border: 2px solid @grayLighter;
+		border-top-color: @grayLight;
+		border-left-color: @grayLight;
+		background: lighten(@lightYellow,8%);
+		color: @grayLighter; 
+		font-size: 24px; //emparchao
+		line-height: 1.3em;
+		text-indent: 5px;
+		margin: 0;
+		float: none;
+		&:focus {
+			color: @grayDark;
+		}
+	}
+}
+//esto e un triste parche porque el compilador se cagó en  la noticia
+#searchForm.fixed{
+		top: @navbarHeight;
+		background: lighten(@grayLighter, 15%);
+	}
+
+#menu_services {
+	width: 50%;
+	float: right;
+	text-align: right;
+	text-shadow: -1px -1px 2px rgba(200,200,0,.45);
+	font-size: .75em;
+	margin: 7px 0;
+	.horlist;
+	li {
+		margin-right: 0;
+	}
+	a{
+		color: @brown;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+#menu_lang {
+	display: inline;
+	.horlist;
+	li {
+		border: none;
+		margin-right: 0;
+	}
+}
+#main{
+	.container;
+	text-align: left;
+	padding: 110px 0 @baseline 0;
+	//position: relative;
+	//margin: auto;
+	//padding-top:110px;
+	&.home{
+		padding-top: @baseline;
+	}
+}
+
+footer {
+	width: 100%;
+	border-top: 1px dotted @grayLighter;
+}
+#footer {
+	font-size: @smallfont;
+	line-height: @baseline * .9;
+	text-align: left;
+	padding: @gridGutterWidth 0;
+	color: @gray;
+}
+#patron { 
+	min-width: @gridColumnWidth + @gridGutterWidth;
+}
+
+#maincont {
+	.makeColumn(8);
+	ol {
+		color: @grayDark;
+	}
+}
+#sidebar {
+	.makeColumn(4);
+	position:absolute;
+	right: 0;
+	li {
+		//padding: 3px 0;
+	}
+	ul {
+		margin-bottom: 10px;
+		ul {
+			margin-left: 10px;
+		}
+	}
+}
+#results {
+	min-height: 100px;
+	font-size: .95em;
+	.loadinfo {
+		width: auto;
+		text-align: center;
+		padding: 25px 0;
+	}
+	li.dragme {
+		width: 100%;
+		.border-radius(3px);
+		margin: 5px 0;
+		padding: 5px;
+		border: 1px dashed @grayLight;
+	}
+	h2 {
+		font-size: 1.5em;
+		padding-bottom: 0;
+	}
+	h3 {
+		font-size: 1.3em;
+		padding-bottom: 0;
+	}
+}
+
+// LABELS
+// ------
+
+.label {
+  //font-size: @basefont * .95;
+  font-size: @labelfont;
+  margin-right: .5em;
+ 	float: left;
+  clear: left;
+  color: @grayLight;
+  //text-transform: lowercase;
+}
+
+.badge {
+	background: @grayLight;
+	color: @white;
+	.border-radius(5px);
+	font-weight: bold;
+	font-size: .85em;
+	padding:.1em .3em;
+}
+//Colors
+
+.important { background-color: @red; }
+.warning   { background-color: @orange; }
+.success   { background-color: @green; }
+.notice    { background-color: lighten(@blue, 25%); }
+.par			 { background-color: lighten(@grayLighter, 15%); }
+

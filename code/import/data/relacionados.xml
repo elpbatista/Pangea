@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Bell</LastAuthor>
+  <Created>2012-06-19T18:51:39Z</Created>
+  <LastSaved>2012-06-19T18:51:20Z</LastSaved>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>4</TabRatio>
+  <AcceptLabelsInFormulas/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Hoja1">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="116" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultColumnWidth="60">
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="153.75"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="114.75"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="252"/>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Término</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Término relacionado</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Termino alternativo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Indígenas</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Indios</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Acuerdos</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Pactos; tratados</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Almanaques</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Calendario</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Anécdotas</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Relatos personales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animales</Data></Cell>
+    <Cell><Data ss:Type="String">Fauna</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Antología</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Obras escogidas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Arrendamientos</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Alquileres</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Asamblea constituyente</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Convención constituyente</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bohíos</Data></Cell>
+    <Cell><Data ss:Type="String">Arquitectura vernácula</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s23">
+    <Cell><Data ss:Type="String">Bosques</Data></Cell>
+    <Cell><Data ss:Type="String">Silvicultura</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Botánica</Data></Cell>
+    <Cell><Data ss:Type="String">Flora; flores</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Candados</Data></Cell>
+    <Cell><Data ss:Type="String">Cerrajerías; bocallave</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Carta</Data></Cell>
+    <Cell ss:Index="3"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Correspondencia; <Font
+       html:Color="#FF0000">epístola</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cartografía</Data></Cell>
+    <Cell><Data ss:Type="String">Plano; mapa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cinematografía</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Cine</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s23">
+    <Cell><Data ss:Type="String">Comercio marítimo</Data></Cell>
+    <Cell><Data ss:Type="String">Cabotaje</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Construcciones</Data></Cell>
+    <Cell><Data ss:Type="String">Demoliciones</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Edificaciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Costas</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Litoral</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Crímenes</Data></Cell>
+    <Cell><Data ss:Type="String">Delincuencia; prisiones; muertes; cárceles; delitos; delincuentes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delitos</Data></Cell>
+    <Cell><Data ss:Type="String">Cárceles; prisiones; agresiones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destierro</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Deportación</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Discurso</Data></Cell>
+    <Cell><Data ss:Type="String">Conferencias; discursos; conferencia</Data></Cell>
+    <Cell><Data ss:Type="String">Alegato; disertación</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Drogas</Data></Cell>
+    <Cell><Data ss:Type="String">Enfermedades</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Narcóticos</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Enfermeras</Data></Cell>
+    <Cell><Data ss:Type="String">Medicina; enfermería; enfermedades</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Enterramientos</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Inhumación</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Epigrafía</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Letreros; grafitis; inscripciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Escribanos</Data></Cell>
+    <Cell><Data ss:Type="String">Documentos; Documento</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Escuelas</Data></Cell>
+    <Cell><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">Enseñanza; educación;<Font
+       html:Color="#FF0000"> </Font><Font>estudiantes; estudio</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Colegios</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Enseñanza</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Instrucción</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ética</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Cívica</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Eventos</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Efemérides; conmemoraciones; celebraciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Excavaciones</Data></Cell>
+    <Cell><Data ss:Type="String">Arqueología; Exhumación</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fenómenos naturales</Data></Cell>
+    <Cell><Data ss:Type="String">Desastres</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Formulario farmacéutico</Data></Cell>
+    <Cell><Data ss:Type="String">Farmacia; medicina</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Genealogía</Data></Cell>
+    <Cell><Data ss:Type="String">Familia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Grabados</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Petroglifos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Historia militar</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Arte militar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Idiomas</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Lenguajes</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Lenguas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Impuestos</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Aranceles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Inauguración</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Fundación</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Jardines</Data></Cell>
+    <Cell><Data ss:Type="String">Flora; flores</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Juicios</Data></Cell>
+    <Cell><Data ss:Type="String">Condenas; delitos; prisiones; cárceles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Juicios</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Procesos judiciales</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s23">
+    <Cell><Data ss:Type="String">Maestranzas</Data></Cell>
+    <Cell><Data ss:Type="String">Armamento; historia militar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Memorias</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">actas; anales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Muertes</Data></Cell>
+    <Cell><Data ss:Type="String">Agresiones</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Defunciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ordenanzas</Data></Cell>
+    <Cell><Data ss:Type="String">Actas Capitulares</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Orografía</Data></Cell>
+    <Cell><Data ss:Type="String">Ríos; mogotes; montañas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Población</Data></Cell>
+    <Cell><Data ss:Type="String">Demografía; sociología</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Propaganda</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Publicidad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Remuneración</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Sueldo</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sanidad</Data></Cell>
+    <Cell><Data ss:Type="String">Enfermedades; medicina; hospitales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sincretismo religioso</Data></Cell>
+    <Cell><Data ss:Type="String">Religión</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s23">
+    <Cell><Data ss:Type="String">Tauromaquia</Data></Cell>
+    <Cell><Data ss:Type="String">Toros</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s23">
+    <Cell><Data ss:Type="String">Tierras</Data></Cell>
+    <Cell><Data ss:Type="String">Latifundios; Propiedad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Toponimia</Data></Cell>
+    <Cell><Data ss:Type="String">Geografía; calles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Traición</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Delación</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Vidriería</Data></Cell>
+    <Cell><Data ss:Type="String">Objetos decorativos</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Cristalería</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s25">
+    <Cell><Data ss:Type="String">Zoología</Data></Cell>
+    <Cell><Data ss:Type="String">Fauna; animales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Deporte</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Distintivos</Data></Cell>
+    <Cell><Data ss:Type="String">Eventos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Elogios</Data></Cell>
+    <Cell><Data ss:Type="String">Oratoria</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s23">
+    <Cell><Data ss:Type="String">Invenciones</Data></Cell>
+    <Cell><Data ss:Type="String">Experimentos; patente</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Arte</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Romanticismo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Arquitectura budista</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Pagodas; Estupa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Arquitectura religiosa</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Construcciones religiosas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Minarete</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Alminar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Artes marciales</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Deporte; defensa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Arreglos florales</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Flores; florería</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Florería</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Floristería</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Costumbres</Data></Cell>
+    <Cell><Data ss:Type="String">Vestuario; adornos; accesorios de belleza</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Religión</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Religiosos; Cargos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Escritura</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Caligrafía</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Corrientes de pensamiento</Data></Cell>
+    <Cell ss:StyleID="s23"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Ideología<Font html:Color="#FF0000">; </Font><Font>filosofía</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Decoración</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Jardinería</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Musulmanes</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Mahometanos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Artesanía</Data></Cell>
+    <Cell ss:StyleID="s23"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Manualidades<Font html:Color="#FF0000">;</Font><Font> técnicas</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Origami</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Papiroflexia</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Pacifismo</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Política de no violencia</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Harakiri</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Costumbres</Data></Cell>
+    <Cell><Data ss:Type="String">Sepukku</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Costumbres</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Casas de té; jardines de té</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Rituales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Actas Capitulares</Data></Cell>
+    <Cell><Data ss:Type="String">Actas del Cabildo</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Instituciones de enseñanza</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="String">Escuelas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clases sociales</Data></Cell>
+    <Cell><Data ss:Type="String">Castas</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Educación</Data></Cell>
+    <Cell><Data ss:Type="String">Alfabetización; instrucción; enseñanza</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dieta</Data></Cell>
+    <Cell><Data ss:Type="String">Paleodieta; arqueología</Data></Cell>
+   </Row>
+   <Row ss:Height="51" ss:StyleID="s26">
+    <Cell><Data ss:Type="String">Numismática</Data></Cell>
+    <Cell><Data ss:Type="String">Billetes; Monedas; Medallística; Condecoraciones; Filatelia; Casas acuñadoras; Casas de moneda; Sistema monetario</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Imitaciones</Data></Cell>
+    <Cell><Data ss:Type="String">Numismática; Arte; Falsificaciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Monedas</Data></Cell>
+    <Cell><Data ss:Type="String">Metales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Máquinas</Data></Cell>
+    <Cell><Data ss:Type="String">Maquinarias</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Medallas británicas</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Medallas inglesas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Personalidades</Data></Cell>
+    <Cell><Data ss:Type="String">Oficios y profesiones</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Tetradracma</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s23"><Data ss:Type="String">Estátera</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Tetradracmas</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s23"><Data ss:Type="String">Estáteras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Monedas británicas</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Monedas inglesas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Órdenes</Data></Cell>
+    <Cell><Data ss:Type="String">Conmemoraciones; Medallas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santos</Data></Cell>
+    <Cell><Data ss:Type="String">Iglesia; Religión</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Construcciones navales</Data></Cell>
+    <Cell><Data ss:Type="String">Embarcaciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Marina mercante</Data></Cell>
+    <Cell><Data ss:Type="String">Embarcaciones; Comercio</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Modelismo naval</Data></Cell>
+    <Cell><Data ss:Type="String">Industria de la construcción; Embarcaciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Modelismo</Data></Cell>
+    <Cell><Data ss:Type="String">Miniatura</Data></Cell>
+    <Cell><Data ss:Type="String">Maqueta</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alfabetos</Data></Cell>
+    <Cell><Data ss:Type="String">Escritura</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Numismática</Data></Cell>
+    <Cell><Data ss:Type="String">Arte monetario; Arte medallístico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cecas</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Casas de monedas</Data></Cell>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">Dinero</Data></Cell>
+    <Cell><Data ss:Type="String">Numismática; Monedas; Moneda; Papel moneda; Acuñaciones; Casas acuñadoras; Casas de moneda; Circulante monetario</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Competencias</Data></Cell>
+    <Cell><Data ss:Type="String">Juegos</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Juego de naipes</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Juego de cartas; Juego de barajas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Naipes</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Barajas; Cartas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Souvenirs</Data></Cell>
+    <Cell><Data ss:Type="String">Viajeros; Turismo</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">Organizaciones políticas</Data></Cell>
+    <Cell><Data ss:Type="String">Partidos políticos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Costumbres</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Vida social</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">Azulejos</Data></Cell>
+    <Cell><Data ss:Type="String">Mosaicos; Artes decorativas; Decoración; Cerámica; Industria de la cerámica; Mosaico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ciencia ficción</Data></Cell>
+    <Cell><Data ss:Type="String">Literatura de ficción</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Expresionismo</Data></Cell>
+    <Cell><Data ss:Type="String">Arte</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Computadora</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ordenador</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0.78749999999999998" x:Data="&amp;C&amp;A"/>
+    <Footer x:Margin="0.78749999999999998" x:Data="&amp;CPágina &amp;P"/>
+    <PageMargins x:Bottom="1.0249999999999999" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0249999999999999"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Zoom>160</Zoom>
+   <Selected/>
+   <TopRowVisible>83</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>92</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hoja2">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="179.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="254"/>
+   <Row ss:Index="2" ss:Height="29.25">
+    <Cell ss:StyleID="s28"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">COLOMBIA&#10;</Font><B><Font
+        html:Color="#000000">N.A. Incluye Nueva Granada</Font></B></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998" x:Data="&amp;C&amp;A"/>
+    <Footer x:Margin="0.78749999999999998" x:Data="&amp;CPágina &amp;P"/>
+    <PageMargins x:Bottom="1.0249999999999999" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0249999999999999"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hoja3">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60.75"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998" x:Data="&amp;C&amp;A"/>
+    <Footer x:Margin="0.78749999999999998" x:Data="&amp;CPágina &amp;P"/>
+    <PageMargins x:Bottom="1.0249999999999999" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0249999999999999"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

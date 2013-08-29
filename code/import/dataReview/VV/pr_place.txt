@@ -1,0 +1,50 @@
+Unión Europea 	 176
+España 	 55
+Barcelona 	 23
+Francia 	 59
+Bélgica 	 115
+China 	 63
+2005 	 1
+[Bruselas] 	 1
+Tournai 	 8
+Italia 	 18
+Cuba 	 1
+La Habana 	 196
+Stavelot 	 3
+Valonia 	 1
+Lieja 	 5
+Eslovenia 	 1
+Comunidad Económica Europea 	 4
+Alleur 	 1
+Tielt 	 1
+Kortrijk 	 1
+Mariakerke 	 1
+Charleroi 	 6
+Vottem 	 1
+París 	 2
+Alemania 	 6
+Guipúzcoa 	 1
+Bilbao 	 1
+Buenos Aires 	 1
+México DF 	 2
+México 	 1
+Milán 	 1
+Namur 	 9
+? 	 5
+Tokyo 	 2
+Sevilla 	 5
+Bruselas 	 8
+Singapur 	 15
+Malasia 	 1
+Cienfuegos 	 1
+Turnhout 	 8
+Madrid 	 1
+Ligugé 	 1
+Maldegem 	 2
+Gante 	 1
+Haine-Saint-Pierre 	 1
+Hamburg 	 1
+Augsburg 	 2
+Leck 	 1
+Polen 	 1
+Boloña 	 1

@@ -1,0 +1,997 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Sergio</LastAuthor>
+  <Created>2011-11-16T01:38:07Z</Created>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>1</Index>
+    <RGB>#E6E6E6</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>19</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#E6E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#E6E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#00FFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#00FFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Interior ss:Color="#00FFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#9999FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s32">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Hoja1">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="97" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="92.25"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="97.5"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="154.5"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="87.75"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="2"/>
+   <Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="243"/>
+   <Row ss:Height="38.25" ss:StyleID="s23">
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nombre</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nombre alternativo</Data></Cell>
+    <Cell><Data ss:Type="String">Fecha de inicio</Data></Cell>
+    <Cell><Data ss:Type="String">Feha de terminación</Data></Cell>
+    <Cell><Data ss:Type="String">Lugar dónde sucede</Data></Cell>
+    <Cell><Data ss:Type="String">Lugar involucrado</Data></Cell>
+    <Cell><Data ss:Type="String">Principales personas</Data></Cell>
+    <Cell><Data ss:Type="String">Síntesis</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Tipo de evento</Data></Cell>
+    <Cell><Data ss:Type="String">Número</Data></Cell>
+    <Cell><Data ss:Type="String">Palabras clave</Data></Cell>
+    <Cell><Data ss:Type="String">Relación con otro evento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="174">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Acuerdos de Camp David</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1978</Data></Cell>
+    <Cell><Data ss:Type="Number">1979</Data></Cell>
+    <Cell><Data ss:Type="String">Washington</Data></Cell>
+    <Cell><Data ss:Type="String">Israel ; Egipto</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"><Data ss:Type="String">Tras trece días de encuentro en Camp David entre Bequin, el primer ministro israelí, y Sadat, presidente de Israel, en septiembre de 1978 se llegó a un acuerdo que fue suscrito en marzo de 1979 en Washington. Tras treinta años de guerra Israel y Egipto firmaron la paz y este último logró la restitución de los territorios que había perdido en 1967 tras un plazo de tiempo que dilató el proceso hasta 1982. </Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Acuerdos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="94.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Asamblea Constituyente de Guáimaro</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1869</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Camagüey</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Agramonte, Ignacio ; Zambrana, Antonio ; Céspedes, Carlos Manuel de</Data></Cell>
+    <Cell><Data ss:Type="String">Se acordó la constitución de la república que regiría el tiempo que durara la guerra de independencia y quedó establecido el primer gobierno unificado de la revolución a partir de una cámara de representantes</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Asambleas constituyentes</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Constitución ; Formas de gobierno</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra de los Diez Años</Data></Cell>
+   </Row>
+   <Row ss:Height="127.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Asamblea Constituyente de Jimaguayú</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1895</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Camagüey</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Cisneros Betancourt, Salvador ; Gómez, Máximo ; Maceo, Antonio ; Estrada Palma, Tomás</Data></Cell>
+    <Cell><Data ss:Type="String">Se acordó un gobierno centralizado de la República, uniendo en un solo organismo el poder legislativo y ejecutivo. El organismo se reconoció como Consejo de Gobierno el cual sólo intervendría en la dirección de las operaciones militares cuando fuera muy necesario a la realización de altos fines políticos</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Asambleas constituyentes</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Constitución ; Formas de gobierno</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra del '95</Data></Cell>
+   </Row>
+   <Row ss:Height="89.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Asamblea Constituyente de la Yaya</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1897</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Yaya</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Gómez, Máximo ; </Data></Cell>
+    <Cell><Data ss:Type="String">Cumpliendo uno de los acuerdos de la Constitución de Jimaguayú, se reunió una Asamblea de Representantes de los diferentes cuerpos del Ejército Libertador para renovar la constitución en vigor y el Consejo de Gobierno</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Asambleas constituyentes</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Constitución ; Formas de gobierno</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra del '95</Data></Cell>
+   </Row>
+   <Row ss:Height="114.75">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Ayacucho</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">9 de diciembre de 1824</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Perú</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell><Data ss:Type="String">Sucre, Antonio José de</Data></Cell>
+    <Cell><Data ss:Type="String">La batalla fue el último gran enfrentamiento denttro de las campañas terrestres de las guerras de independencia hispanoamericanas y significó el final definitivo del dominio colonial en América del Sur. La victoria de los independentistas selló la independencia del Perú</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras de emancipación de América Latina ; poder político</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Borodinó</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla del río Moscova</Data></Cell>
+    <Cell><Data ss:Type="String">7 de septiembre de 1812</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">Rusia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Francia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Bonaparte, Napoleón</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fue la mayor y más sangrienta batalla de todas las Guerras Napoleónicas, enfrentando a cerca de un cuarto de millón de hombres.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras napoleónicas</Data></Cell>
+   </Row>
+   <Row ss:Height="89.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Boyacá</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">7 de agosto de 1819</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Colombia</Data></Cell>
+    <Cell><Data ss:Type="String">Granada ; Venezuela ; España</Data></Cell>
+    <Cell><Data ss:Type="String">Bolívar, Simón ; Paula Santander, Francisco de</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fue la batalla decisiva que garantizaría el éxito de la Campaña Libertadora de Nueva Granada y una de las batallas más importantes de la guerra de independencia de América del Sur. </Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras ; Campañas militares</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras de emancipación de América Latina</Data></Cell>
+   </Row>
+   <Row ss:Height="89.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Carabobo</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">24 de junio de 1821</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Venezuela ó Gran Colombia</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell><Data ss:Type="String">Bolívar, Simón</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fue un enfrentamiento militar de los independentistas venezolanos, que resultó crucial para la captura de Caracas y el resto del territorio venezolano que aun permanecía en poder de los reales</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras ; Campañas militares</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras de emancipación de América Latina</Data></Cell>
+   </Row>
+   <Row ss:Height="102">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Chacabuco</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">12 de febrero de 1817</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell><Data ss:Type="String">San Martín, José de ; O'Higgins, Bernardo</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fue una decisiva contienda de la Independencia de Chile en la cual combatieron el Ejército de los Andes de las Provincias Unidas del Río de la Plata y el Ejército Realista, resultando en un firme triunfo para el bando independentista</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras ; Campañas militares</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras de emancipación de América Latina</Data></Cell>
+   </Row>
+   <Row ss:Height="255">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Chapultepéc</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">13 de septiembre de 1847</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">México</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+    <Cell><Data ss:Type="String">Bravo, Nicolás ; Scott, Winfield</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">El ejército de los Estados Unidos había invadido a la República Méxicana en el episodio conocido como Guerra del 47, so pretexto de violaciones territoriales en la zona de Texas que pertenecía a México desde época de la Colonia Se le encomienda al Batallón de San Blas auxiliar la guarnición del Castillo de Chapultepec; el ejército invasor bombardea durante todo el día 12 la línea de defensa por lo que el batallón empieza a ser diezmado, es entonces cuando, Xicohténcatl ve al abanderado de su batallón caer, corre a tomar la bandera, pero es herido en varias ocasiones y cae envuelto con la bandera de su batallón,</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras ; Campañas militares</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra mexicano-estadounidense</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Junín</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String"> 6 de agosto de 1824</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Lepanto</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">7 de octubre de 1571</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+   </Row>
+   <Row ss:Height="114.75">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de mal Tiempo</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">15 de diciembre de 1895</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cienfuegos</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Gómez, Máximo ; Maceo, Antonio</Data></Cell>
+    <Cell><Data ss:Type="String">Fue un enfrentamiento bélico producido entre mambises y españoles, ganando los primeros. Esta victoria fue considerada como una de las más importantes de la invasión, por las consecuencias políticas, militares y económicas en favor del movimiento independentista.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Invasión Oriente-Occidente</Data></Cell>
+   </Row>
+   <Row ss:Height="140.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batalla de Pichincha</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String"> 24 de mayo de 1822</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ecuador</Data></Cell>
+    <Cell><Data ss:Type="String">Gran Colombia ; Perú ; Argentina ; España</Data></Cell>
+    <Cell><Data ss:Type="String">Sucre, Antonio José de</Data></Cell>
+    <Cell><Data ss:Type="String">Se enfrentó el ejército independentista bajo el mando del general venezolano Antonio José de Sucre y el ejército realista comandado por el general Aymerich. La derrota de las fuerzas españolas condujo a la liberación de Quito y aseguró la independencia de las provincias que pertenecían a la Real Audiencia de Quito.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Batallas</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras de emancipación de américa Latina</Data></Cell>
+   </Row>
+   <Row ss:Height="76.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Campaña de Alfabetización</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1960</Data></Cell>
+    <Cell><Data ss:Type="String">22 de diciembre de 1961</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Castro Ruz, Fidel ; Ascunce Domenech, Manuel ; Lantigua, Pedro</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fue una campaña de alcance nacional impulsada por el gobierno cubano para reducir el analfabetismo e incrementar el porcentaje de población escolarizada</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Alfabetización</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Educación ; Enseñanza</Data></Cell>
+    <Cell><Data ss:Type="String">Revolución cubana</Data></Cell>
+   </Row>
+   <Row ss:Height="114.75">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Conflicto Irán-Iraq</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1980</Data></Cell>
+    <Cell><Data ss:Type="Number">1988</Data></Cell>
+    <Cell><Data ss:Type="String">Golfo Pérsico ; Irán ; Iraq</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Hussein, Saddam ; Jomeini, Ruhollah</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Sus orígenes se encuentran en la larga animosidad árabe-persa y en las rivalidades regionales; en concreto, Irak quería invertir la delimitación de fronteras entre los dos estados, establecida en losAcuerdos de Argel (1975), para conseguir la anexión de la región de Shatt al-Arab.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="102">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Congreso Interamericano de Panamá</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Congreso Anfictiónico de Panamá</Data></Cell>
+    <Cell><Data ss:Type="String">22 de junio de 1826</Data></Cell>
+    <Cell><Data ss:Type="String">15 de julio de 1826</Data></Cell>
+    <Cell><Data ss:Type="String">Convento de San Francisco ó Palacio Bolívar, Panamá</Data></Cell>
+    <Cell><Data ss:Type="String">Nueva Granada ; Venezuela ; Ecuador ; México ; Guatemala ; Perú ; Gran Bretaña</Data></Cell>
+    <Cell><Data ss:Type="String">Bolívar, Simón</Data></Cell>
+    <Cell><Data ss:Type="String">El congreso se desarrolló con el objetivo de buscar la unión o confederación de Hispanoamérica. </Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Congreso Interamericano</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Acuerdos ; Hispanoamérica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constitución de 1901</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1901</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Constituciones</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Normativa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constitución de 1940</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1940</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Constituciones</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Normativa</Data></Cell>
+   </Row>
+   <Row ss:Height="102">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constitución de Guáimaro</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1869</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Agramonte, Ignacio ; Zambrana, Antonio</Data></Cell>
+    <Cell><Data ss:Type="String">La constitución estableció una Cámara de Representantes como poder supremo del Estado. El territorio de la Isla fue dividido en cuatro estados: Oriente, Camagüey, Las Villas y Occidente, cada una tendría igual representación en la cámara</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constituciones</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Normativa</Data></Cell>
+    <Cell><Data ss:Type="String">Asamblea de Guáimaro, 1869</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constitución de Jimaguayú</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1895</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Constituciones</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Normativa</Data></Cell>
+   </Row>
+   <Row ss:Height="127.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constitución de la Yaya</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1897</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Esta constitución ratificó la forma de gobierno establecida por la de Jimaguayú. Fijó los requisitos para ser presidente o vicepresidente de la República, especificó las funciones propias de cada secretario. También autorizó al Consejo para nombrar libremente los jefes y oficiales del Ejército Libertador.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Constituciones</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Normativa</Data></Cell>
+    <Cell><Data ss:Type="String">Asamblea de la Yaya, 1897</Data></Cell>
+   </Row>
+   <Row ss:Height="51">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Crisis de Octubre</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1962</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos ; Unión Soviética</Data></Cell>
+    <Cell><Data ss:Type="String">Castro Ruz, Fidel, 1926- ; Khrushchev, Nikita ; Kennedy, Jhon F.</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Conflictos</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Guerras ; objetos bélicos</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Declaración de La Habana (Primera)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1960</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">La Habana</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Castro Ruz, Fidel, 1926-</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Declaraciones</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Revolución Cubana</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Declaración de La Habana (Segunda)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1962</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">La Habana</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Castro Ruz, Fidel, 1926-</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Declaraciones</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Revolución Cubana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.3125">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Descubrimiento de América</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1492</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">América Central ; América del Sur ; América del Norte</Data></Cell>
+    <Cell><Data ss:Type="String">España ; Gran Bretaña</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Descubrimientos</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dominación colonial española en Cuba (Primera)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1514</Data></Cell>
+    <Cell><Data ss:Type="Number">1762</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Colonización española</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dominación colonial española en Cuba (Segunda)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1763</Data></Cell>
+    <Cell><Data ss:Type="Number">1810</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Colonización española</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dominación colonial española en Cuba (Tercera)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1811</Data></Cell>
+    <Cell><Data ss:Type="Number">1898</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Colonización española</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dominio inglés en Cuba</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1762</Data></Cell>
+    <Cell><Data ss:Type="Number">1763</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Gran Bretaña</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Colonización inglesa</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s28">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Edad Media, Siglos V-XV </Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Enmienda Platt</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1901</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Constituciones</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Normativa</Data></Cell>
+    <Cell><Data ss:Type="String">Constitución de 1901</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Franquismo</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1939</Data></Cell>
+    <Cell><Data ss:Type="Number">1975</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Dictaduras</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Grito de Baire</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1895</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra de los Diez Años</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Grito de Yara</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1868</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra de los Diez Años</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Chiquita</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1879</Data></Cell>
+    <Cell><Data ss:Type="Number">1880</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+   </Row>
+   <Row ss:Height="140.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Civil Española</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1936</Data></Cell>
+    <Cell><Data ss:Type="Number">1939</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell><Data ss:Type="String">Alemania ; Italia ; Portugal ; Unión Soviética</Data></Cell>
+    <Cell><Data ss:Type="String">Franco, Francisco, -1975</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Fue un conflicto social, político y militar, que más tarde repercutiría también en un conflicto económico que se desencadenó en España tras fracasar el golpe de estado de 1936, llevado a cabo por una parte del ejército contra el gobierno de la Segunda República Española, y que duraría hasta 1939 con el establecimiento de una dictadura.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerras civiles</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Golpe de estado ; </Data></Cell>
+    <Cell><Data ss:Type="String">Franquismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="293.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Corea</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1950</Data></Cell>
+    <Cell><Data ss:Type="Number">1953</Data></Cell>
+    <Cell><Data ss:Type="String">Corea</Data></Cell>
+    <Cell><Data ss:Type="String">China ; Estados Unidos</Data></Cell>
+    <Cell><Data ss:Type="String">Mao Zedong ; Stalin, Iósif</Data></Cell>
+    <Cell><Data ss:Type="String">Estalló la guerra con apariencia de tratarse de un conflicto interno entre coreanos del norte y del sur, convirtiéndose en una dura contienda entre la República Popular China con ayuda militar de la Unión Soviética y las Naciones Unidas encabezadas por los Estados Unidos, estos últimos en defensa de la República Democrática de Corea del Sur. Con las dos Coreas auspiciadas por potencias extranjeras, la Guerra de Corea fue una guerra subsidiaria. Desde el punto de vista de la ciencia militar, combinó estrategias y tácticas de la Primera y la Segunda guerras mundiales: comenzó con una campaña móvil de rápidos ataques de infantería seguidos por incursiones de bombardeos aéreos, pero se convirtió en una guerra estática de trincheras desde julio de 1951.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Emancipación de América Latina</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1808</Data></Cell>
+    <Cell><Data ss:Type="Number">1826</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia Argelina</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1954</Data></Cell>
+    <Cell><Data ss:Type="Number">1962</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia Española</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1808</Data></Cell>
+    <Cell><Data ss:Type="Number">1814</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"><Data ss:Type="String">Guerras</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s24"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.3125">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de la Triple Alianza</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra del Paraguay</Data></Cell>
+    <Cell><Data ss:Type="Number">1865</Data></Cell>
+    <Cell><Data ss:Type="Number">1870</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de las Malvinas</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1982</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="51">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de las Trece Colonias</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1775</Data></Cell>
+    <Cell><Data ss:Type="Number">1783</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+    <Cell><Data ss:Type="String">Gran Bretaña ; Francia ; España</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Washington</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="76.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de los Diez Años</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1868</Data></Cell>
+    <Cell><Data ss:Type="Number">1878</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell><Data ss:Type="String">Céspedes, Carlos Manuel de ; Agramonte, Ignacio ; Gómez, Máximo ; Maceo, Antonio ; García, Calixto</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Secesión</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1861</Data></Cell>
+    <Cell><Data ss:Type="Number">1865</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Sucesión española</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1702</Data></Cell>
+    <Cell><Data ss:Type="Number">1714</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra de Viet Nam</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1959</Data></Cell>
+    <Cell><Data ss:Type="Number">1975</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra del ´95</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1895</Data></Cell>
+    <Cell><Data ss:Type="Number">1898</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">España</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra del Golfo Pérsico</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1991</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Fría</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1945</Data></Cell>
+    <Cell><Data ss:Type="Number">1985</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Hispano-Cubano-Norteamericana</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1898</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">España ; Estados Unidos</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Mexicano-estadounidense</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1846</Data></Cell>
+    <Cell><Data ss:Type="Number">1848</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Mundial (Primera)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1914</Data></Cell>
+    <Cell><Data ss:Type="Number">1919</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras mundiales</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerra Mundial (Segunda)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1939</Data></Cell>
+    <Cell><Data ss:Type="Number">1945</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras mundiales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerras Napoleónicas</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1799</Data></Cell>
+    <Cell><Data ss:Type="Number">1815</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Guerrita de Agosto</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1906</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Ilustración, siglo XVIII</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Imperio Bizantino</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">395</Data></Cell>
+    <Cell><Data ss:Type="Number">1453</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Imperio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Imperio Mogol</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1526</Data></Cell>
+    <Cell><Data ss:Type="Number">1857</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Imperio</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Imperio Romano, 27 a.n.e.-476 d.n.e.</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Imperio</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Invasión por Playa Girón</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">17 de abril de 1961</Data></Cell>
+    <Cell><Data ss:Type="String">19 de abril de 1961</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Agresiones mercenarias</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Lucha contra bandidos</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1959</Data></Cell>
+    <Cell><Data ss:Type="Number">1966</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="12"><Data ss:Type="String">Revolución Cubana</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Ocupación Militar Norteamericana</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1899</Data></Cell>
+    <Cell><Data ss:Type="Number">1902</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Ocupación militar</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Pacto del Zanjón</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1878</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra de los Diez Años</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.0625">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Protesta de Baraguá</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1878</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Maceo, Antonio</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Guerra de Independencia</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra de los Diez Años</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Protesta de los Trece</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1923</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Martínez Villena, Rubén</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+    <Cell ss:Index="12"><Data ss:Type="String">República mediatizada</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Reconcentración</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1896</Data></Cell>
+    <Cell><Data ss:Type="Number">1898</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra del '95</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Reforma Agraria (Primera)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1959</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Revolución Cubana</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Reforma Agraria (Segunda)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1963</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Revolución Cubana</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Reforma católica (Contrarreforma), siglos XVI-XVII</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Reformas</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5" ss:StyleID="s32">
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Reforma universitaria en Cuba</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Reforma universitaria</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">República mediatizada</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">República Española (Primera)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1873</Data></Cell>
+    <Cell><Data ss:Type="Number">1874</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">República</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">República Española (Segunda)</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1931</Data></Cell>
+    <Cell><Data ss:Type="Number">1939</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">República</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">República Mediatizada de Cuba</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1901</Data></Cell>
+    <Cell><Data ss:Type="Number">1958</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">Estados Unidos</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">República</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Revolución Cubana</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">1 de enero de 1959</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Revolución de los Claveles</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1974</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Portugal</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Revolución del ´30</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1930</Data></Cell>
+    <Cell><Data ss:Type="Number">1935</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Revolución Francesa</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1789</Data></Cell>
+    <Cell><Data ss:Type="Number">1799</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Revolución Socialista de Octubre</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1917</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Revoluciones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XII</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XIII</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XIV</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XIX</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XV</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XVI</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XVII</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XVIII</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XX</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Siglo XXI</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Toma de la Habana por los ingleses</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1762</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Colonización inglesa</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Dominio inglés en Cuba</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tratado de París</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1898</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Tratados</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Guerra Hispano-cubana-norteamericana</Data></Cell>
+   </Row>
+   <Row ss:Height="127.5">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tratado de Tordesillas</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">7 de junio de1494</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">España</Data></Cell>
+    <Cell><Data ss:Type="String">Portugal</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Se establecía un reparto de las zonas de conquista y anexión del Nuevo Mundo mediante una línea divisora del Océano Atlántico y de los territorios adyacentes. El tratado se firmó para evitar conflictos entre las coronas de España y Portugal interesadas en el control de los mares y tierras exploradas por sus marineros.</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tratados</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tratado de Versalles</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1783</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Tratados</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra de las Trece Colonias</Data></Cell>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tratado de Versalles</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1919</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"><Data ss:Type="String">Tratados</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Guerra mundial (Primera)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tregua Fecunda</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="Number">1878</Data></Cell>
+    <Cell><Data ss:Type="Number">1895</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s24"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12Página &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>33</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>33</ActiveRow>
+     <RangeSelection>R1:R65536</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hoja2">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60.75"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12Página &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hoja3">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60.75"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Predeterminado&quot;&amp;12Página &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,7 @@
+Libro 	 735
+Folleto 	 48
+Revista 	 185
+Sueltos 	 18
+Mapas 	 1
+Álbum 	 1
+Boletín 	 1

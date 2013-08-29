@@ -1,0 +1,39 @@
+Barcelona 	 320
+Bruselas 	 232
+Madrid 	 5
+[Bruselas] 	 3
+Bélgica 	 3
+París 	 9
+Ginebra 	 1
+Francia 	 8
+Marcinelle 	 15
+Grenoble 	 6
+La Habana 	 105
+Milán 	 2
+España 	 4
+Namur 	 29
+Charleroi 	 2
+Tournai 	 3
+Girona 	 1
+Flandes 	 2
+Lieja 	 5
+Amay 	 1
+[s.l.] 	 23
+Berlín 	 17
+Alemania 	 1
+Koln 	 1
+Vitoria 	 2
+Buenos Aires 	 1
+Chile 	 1
+México DF 	 5
+[México] 	 1
+Tokyo 	 2
+Amsterdam/ Angouleme 	 1
+Lessines 	 1
+Cienfuegos 	 1
+Leuven 	 1
+La Louvière 	 2
+Hamburg 	 4
+Wuppertal 	 1
+Quilow 	 1
+Zurich 	 1

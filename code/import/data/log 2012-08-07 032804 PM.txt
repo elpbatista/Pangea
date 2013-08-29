@@ -1,0 +1,150 @@
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 
+Nodo: pangea:year
+Texto del nodo: 1999
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar y la Constituyente. Aproximación Histórico-Filosófica a la Teoría Bolivariana del Estado
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000004
+Nodo: pangea:year
+Texto del nodo: 1999
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar y la Constituyente. Aproximación Histórico-Filosófica a la Teoría Bolivariana del Estado
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000028
+Nodo: skos:prefLabel
+Texto del nodo: La Conspiración de Gual y España  : y el ideario de la independencia
+Nodo: pangea:date
+Texto del nodo: [1949]
+Nodo: pangea:warning
+Texto del nodo: El lugar no fue extraído de la portada.
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000053
+Nodo: pangea:year
+Texto del nodo: 1969
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar. Nacimiento de un Mundo = Birth of a world Bolívar ; t. I
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000096
+Nodo: pangea:generalNote
+Texto del nodo: Edición auspiciada por el Comando General del Ejército Venezolano, con ocasión del 170° Aniversario de la Batalla de Carabobo, día del ejército, 12 de junio de 1991
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: skos:prefLabel
+Texto del nodo: Campaña de Carabobo 1821
+Nodo: pangea:date
+Texto del nodo: [1991]
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000120
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar visto por los niños : Bolívar, no serás olvidado jamás
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: pangea:isbn
+Texto del nodo: 980-03-0033-3
+Nodo: pangea:date
+Texto del nodo: 00/00/1992
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000169
+Nodo: skos:prefLabel
+Texto del nodo: Un Hombre diáfano : vida de Simón Bolívar para los nuevos americanos
+Nodo: pangea:date
+Texto del nodo: 00/00/1993
+Nodo: pangea:isbn
+Texto del nodo: 980-340-033-9
+Nodo: pangea:warning
+Texto del nodo: El lugar no fue extraído de la portada.
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000205
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar de San Jacinto a Santa Marta
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: pangea:date
+Texto del nodo: 00/00/2005
+Nodo: pangea:isbn
+Texto del nodo: 980-6862-00-7
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000259
+Nodo: skos:prefLabel
+Texto del nodo: Vida ejemplar de Simón Bolívar
+Nodo: pangea:date
+Texto del nodo: 00/00/1983
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000294
+Nodo: skos:prefLabel
+Texto del nodo: Cátedra Bolivariana : 9° Grado Educación Básica
+Nodo: pangea:warning
+Texto del nodo: El lugar no fue extraído de la portada.
+Nodo: pangea:date
+Texto del nodo: 00/00/1989
+Nodo: pangea:isbn
+Texto del nodo: 980-6010-66-3
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000330
+Nodo: skos:prefLabel
+Texto del nodo: Un Hombre diáfano : vida de Simón Bolívar para los nuevos americanos
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: pangea:date
+Texto del nodo: [1982]
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000373
+Nodo: pangea:generalNote
+Texto del nodo: Primera Biografía del Libertador escrita e ilustrada por niños y jóvenes venezolanos
+Nodo: pangea:isbn
+Texto del nodo: 980-266-012-4
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar, no serás olvidado jamás
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: pangea:date
+Texto del nodo: [1986]
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000409
+Nodo: pangea:generalNote
+Texto del nodo: La Primera edición de este libro fué publicada bajo el título de Culto Bolivariano
+Nodo: pangea:warning
+Texto del nodo: No se conoce el nombre de la imprenta.
+Nodo: skos:prefLabel
+Texto del nodo: Bolívar : 32 lecciones para jóvenes americanos
+Nodo: pangea:date
+Texto del nodo: 00/00/1952
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000455
+Nodo: skos:prefLabel
+Texto del nodo: Mi amigo Simón Bolívar : tomo I
+Nodo: pangea:isbn
+Texto del nodo: 980-6210-53-0
+Nodo: pangea:date
+Texto del nodo: [2001-2002]
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000495
+Nodo: skos:prefLabel
+Texto del nodo: Mi amigo Simón Bolívar  : tomo II
+Nodo: pangea:isbn
+Texto del nodo: 980-6210-54-9
+Nodo: pangea:date
+Texto del nodo: [2001-2002]
+Nodo: pangea:warning
+Texto del nodo: El lugar no fue extraído de la portada.
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000544
+Nodo: skos:prefLabel
+Texto del nodo: Mi amigo Simón Bolívar : tomo III
+Nodo: pangea:isbn
+Texto del nodo: 980-6210-55-7
+Nodo: pangea:date
+Texto del nodo: [2001-2002]
+Nodo: pangea:warning
+Texto del nodo: La imprenta no fue extraída de la portada.
+Nodo: frbr:Manifestation
+Entidad: frbr:Manifestation id= 1000583
+Nodo: skos:prefLabel
+Texto del nodo: I Congreso Bolivariano de Institutos de Cultura Hispánica : memorias
+Nodo: pangea:date
+Texto del nodo: [1983]

@@ -1,0 +1,491 @@
+Aventuras; Largo Winch 	 23
+Aventuras; Espionaje; XIII 	 31
+Aventuras; Espionaje; Estados Unidos; XIII 	 1
+Arquitectura; Torre de Babel; Giovanni Batista; Elías Aureolus 	 1
+Arquitectura; Brüsel; Bruselas 	 3
+Arquitectura; Cartografía; Mapas; Cúpula del Centro de Cartografía ; Roland de Cremer; Shkodra 	 1
+Arquitectura; Cartografía; Mapas; Cúpula del Centro de Cartografía; Roland de Cremer; Shkodra 	 1
+Arquitectura 	 1
+Arquitectura; Xhystos ; Brüsel; Mylos, Pâhry ; Alaxis, Génova; Calvani; Isidore Louis; Robert Louis Marie de la Barque; Paul Cauchie; Giovanni Batista; Instituto Central de los Archivos, Subsección de Mitos y Leyendas 	 1
+Arquitectura; Alaxis; París; Mont Michelson; Sodrovni ; Mary von Rathen; Axel Wappendorf; Agustin Desombres 	 1
+Novela gráfica; Erotismo; Maldición; Roquevaire (Francia); Bernard Sambre; Sara Sambre; Julie; Hugo Sambre 	 1
+Novela gráfica; Erotismo; Maldición; París; Bernard Sambre; Sara Sambre; Julie 	 1
+Aventuras; Fantasía; País de los Xinjins ; Thorgal; Tanatloc; Aaricia; Jolan ; Kriss de Valnor 	 1
+Aventuras; Fantasía; Mayaxalt; Ogotai; Thorgal; Kriss de Valnor; Aaricia 	 1
+Aventuras; Fantasía; Thorgal; Aaricia; Jolan 	 15
+Aventuras; Fantasía; Thorgal; Aaricia 	 6
+Aventuras; Fantasía; Thorgal; Aaricia; Loba 	 1
+Aventuras; Fantasía; Thorgal 	 5
+Aventuras; Fantasía; Ciencia ficción; Thorgal 	 1
+Aventuras; Fantasía; Thorgal; Jolan ; Aaricia 	 1
+Aventuras; Fantasía; Thorgal; Aaricia; Jolan ; Alinoé 	 1
+Aventuras; Fantasía; Thorgal; Kriss de Valnor 	 1
+Aventuras; Fantasía; Thorgal; Aaricia; Kriss de Valnor 	 1
+Aventuras; Aymar de Bois-Maury 	 11
+Aventuras; Siglo XIII; Nápoles; Sicilia 	 1
+Aventuras; Fantasía; Thorgal; Aaricia; Alinoé 	 1
+Pitufos 	 4
+Petit Poilu 	 2
+Aventuras; China; Japón; Tintín; Milú; Tchang Tchong-Jen 	 4
+Aventuras; América del Sur; Tintín; Milú; Profesor Tornasol 	 4
+Aventuras; Alpes; Tíbet; Tintín; Yeti; Tchang Tchong-Jen 	 2
+Aventuras; Embarcaciones; Castillo de Moulinsart; Tintín; Milú; Capitán Haddock 	 4
+Aventuras; Tintín 	 1
+Aventuras; Congo; Tintín; Milú 	 1
+Aventuras; Chicago; Tintín; Milú; Bobby Smiles 	 2
+Aventuras; Egipto; India; Tintín; Milú; Filemón Ciclón 	 2
+Aventuras; San Teodoros; Nuevo Rico ; Tintín; Milú 	 2
+Aventuras; Tintín; Milú; Profesor Calys 	 2
+Aventuras; Perú; Tintín; Milú; Capitán Haddock 	 2
+Aventuras; Ciencia ficción; Nueva York; Jorge; Sara; Pipo 	 1
+Aventuras; Oeste; Aborígenes; Guerra de Secesión; Estados Unidos; Blueberry 	 3
+Aventuras; Oeste; Aborígenes; Ferrocarriles; Guerra de Secesión; Estados Unidos; Blueberry 	 1
+Aventuras; Oeste; Ferrocarriles; Guerra de Secesión; Estados Unidos; Blueberry 	 1
+Aventuras; Oeste; Ferrocarriles; Guerra de Secesión; Estados Unidos; Wyoming; Blueberry 	 1
+Aventuras; Oeste; Aborígenes; Guerra de Secesión; Estados Unidos; Wyoming; Colorado; Blueberry 	 1
+Aventuras; Oeste; Guerra de Secesión; Estados Unidos; Arizona; Blueberry 	 1
+Aventuras; Oeste; Guerra de Secesión; Estados Unidos; Blueberry 	 1
+Aventuras; Oeste; Estados Unidos; Blueberry 	 16
+Aventuras; Oeste; Ferrocarriles; Estados Unidos; Blueberry 	 1
+Aventuras; Oeste; Esclavitud; Ferrocarriles; Estados Unidos; Blueberry 	 1
+Aventuras; Oeste; Estados Unidos; Arizona; Blueberry 	 2
+Aventuras; Oeste; Aborígenes; Estados Unidos; Blueberry 	 2
+Aventuras; Oeste; Aborígenes; Estados Unidos; Arizona; Blueberry 	 2
+Aventuras; Oeste; Lucky Luke 	 13
+Biografías; Cuba; Guevara, Ernesto, 1928-1967 	 1
+Aventuras; Ludo 	 8
+Aventuras 	 6
+Aventuras; Erotismo; Saint-Malo; Francia; Conde Skarbek; L´Éclat 	 4
+Aventuras; Ciencia ficción; Yoko Tsuno 	 3
+Novela gráfica; Fotografía; Informática; Primera Guerra Mundial; Bruselas; Viena; Rennes; Eva Stern; Frank Stern; Fabienne Rouge-Dyeu; Freud, Sigmund, 1856-1939; El Cielo XX 	 1
+Novela gráfica; Fotografía; Informática; Erotismo; Segunda Guerra Mundial; Guerra de Viet Nam; Hawai; Viena; Moscú; Florida; Eva Stern; Frank Stern; Fabienne Rouge-Dyeu; Freud, Sigmund, 1856-1939; El Cielo XX 	 1
+Aventuras; Spirou; Fantasio 	 13
+Humorismo; Redacción del periódico Spirou; Bélgica; Gaston Lagaffe 	 7
+Humorismo 	 3
+Humorismo; Aventuras; Crannibales 	 2
+Aventuras; Humorismo; Crannibales 	 2
+Aventuras; Oscar 	 2
+Humorismo; Chat 	 2
+Aventuras; Humorismo; Billy Colas 	 1
+Aventuras; Humorismo; Boule; Bill 	 4
+Aventuras; Humorismo; Cédric 	 8
+Aventuras; Jim Cutlass 	 1
+Aventuras; Esclavitud; Tabaco; Siglo XIX; La Habana; Ginebra; Pinar del Río 	 1
+Aventuras; Egipto; Papyrus 	 1
+Aventuras; Humorismo; Imperio romano; Roma; Valle de Osiris; Lucius Murena; Nerón (37-68 d.C.); Claudio I (10 a.C.-54 d.C.) 	 1
+Leyendas; Ardennes; Camp-Volant 	 1
+Ciencia ficción; Mujeres; TIerras Huecas; Zara; Oliva 	 1
+Ciencia ficción; TIerras Huecas; Nogegon; Oliva; Nelle 	 1
+Arquitectura; Torre de Babel; Giovanni Batista; Elías Aureolus; Milena 	 1
+Arquitectura; Armilia 	 1
+Arquitectura; Cubo; Urbicande; Eugène Robick; Sophie; Comisión de Altas Instancias 	 1
+Arquitectura; Ciudades Oscuras 	 2
+Novela gráfica; Fantasía; Jules; Féodor 	 1
+Novela gráfica; Policíaco 	 2
+Policíaco; Aventuras; Tif; Tondu 	 1
+Aventuras; Humorismo; César 	 1
+Aventuras; Humorismo 	 2
+Policíaco; Aventuras; Gil Jourdan 	 1
+Aventuras; Policíaco; Tif; Tondu 	 2
+Venezuela; Ecuador; Martí Pérez, José, 1853-1895; Bolívar, Simón, 1783 - 1830 	 1
+La Habana; Cuba; Martí Pérez, José, 1853-1895 	 3
+Aventuras; Cecilín; Coti 	 2
+Dibujo; Enseñanza 	 5
+Aventuras; Cecilín; Coti; Bolívar, Simón, 1783 - 1830 	 1
+Aventuras; Humorismo; Tito 	 1
+Aventuras; Claudia 	 2
+Erotismo; Fantasía; Comarca La Cenicienta; Leonora 	 1
+Aventuras; Humorismo; Kukuy 	 3
+Cuba; La Habana; Torriente Brau, Pablo de la, 1901-1936 	 1
+Guerra de los Diez Años; Cuba; Reeve, Henry, ? 	 1
+Globalización; Humorismo 	 1
+Policíaco; Industria azucarera; Cuba; Pol Brix; Tonga 	 1
+Revolución cubana; Cuba; Castro Ruz, Fidel, 1926- 	 1
+Aventuras; Oeste; México; Lucky Luke 	 1
+Aventuras; Oeste; Mississipi, río; Lucky Luke 	 1
+Aventuras; Oeste; Lucky Luke; Billy the kid 	 1
+Aventuras; Oeste; Canadá; Lucky Luke; Bernhardt, Sarah, 1844-1923 	 1
+Aventuras; Policíaco; Venecia; Giacomo Casanova 	 14
+Aventuras; Venecia; Giacomo Casanova 	 1
+Fantasía; Belette 	 2
+Realismo mágico; 1944; Segunda Guerra Mundial; Primera Guerra Mundial; Ardennes 	 1
+Fantasía 	 6
+Aventuras; Fantasía; Marsupilami 	 6
+Aventuras; Sildavia; Tintín; Milú; Halambique 	 2
+Humorismo; Redacción del periódico Spirou; Bélgica; Gaston Lagaffe; Spirou 	 1
+Aventuras; Policíaco; Misterio; Ciencia ficción; PIrámide de Keops; Egipto; Blake; Mortimer; Olrik 	 1
+Aventuras; Policíaco; Misterio; Egipto; Blake; Mortimer; Olrik 	 2
+Aventuras; Misterio; Policíaco; Londres; Blake; Mortimer; Olrik 	 2
+Aventuras; Policíaco; Misterio; Islas Azores; Blake; Mortimer; Olrik 	 1
+Aventuras; Policíaco; Misterio; París; Blake; Mortimer; Olrik 	 1
+Aventuras; Misterio; Policíaco; París; Blake; Mortimer; Olrik 	 2
+Aventuras; Policíaco; Misterio; Tokyo; Blake; Mortimer; Olrik 	 1
+Aventuras; Misterio; Policíaco; Espadón; Tíbet; Blake; Mortimer; Olrik 	 1
+Aventuras; Policíaco; Misterio; Espadón; Imperio Mundial Amarillo; Blake; Mortimer; Olrik 	 1
+Aventuras; Policíaco; Misterio; Tokyo; Londres; Blake; Mortimer; Olrik 	 1
+Aventuras; Espionaje; Misterio; Londres; Blake; Mortimer; Olrik 	 1
+Aventuras; Espionaje; Unión Soviética; Londres; Blake; Mortimer; Olrik 	 1
+Aventuras; Misterio; Estados Unidos; Londres; Escocia; Blake; Mortimer; Olrik 	 1
+Aventuras; Misterio; India; Bruselas; Blake; Mortimer; Olrik 	 3
+Aventuras; Misterio; Espionaje; Bruselas; Londres; Blake; Mortimer 	 1
+Aventuras; Misterio; Espionaje; África; Blake; Mortimer 	 1
+Aventuras; Oeste; Oklahoma; Lucky Luke 	 1
+Aventuras; Fantasía 	 2
+Aventuras; Castillo de Moulinsart; Tintín; Milú; Capitán Haddock 	 3
+Fantasía; Erotismo; Policíaco; Jaguar 	 1
+Erotismo; Fantasía; Policíaco; Jaguar 	 2
+Fantasía; Leyendas; Erotismo 	 1
+Leyendas; Fantasía; Aventuras; Erotismo 	 1
+Leyendas; Aventuras; Fantasía; Erotismo 	 1
+Aventuras; Leyendas; Sioban 	 1
+Aventuras; Sioban 	 1
+Fantasía; Leyendas; J`on; Bom Bom; G`Well 	 1
+Fantasía; Aventuras; Zorya 	 1
+Iglesia Católica; Juan Pablo II, 1920-2005; Castro Ruz, Fidel, 1926- 	 2
+Aventuras; Ciencia ficción; Xunguis 	 1
+Expresionismo; Franz Kafka, 1883-1924 	 1
+Erotismo; Fantasía 	 1
+Autobiografías; Bélgica 	 3
+Fantasía; Expresionismo; Bruselas 	 1
+Fantasía; Bruselas 	 1
+Pintura holandesa; Erotismo; Amsterdam; Rembrandt Van Rijn (1606-1669) 	 1
+Carnaval; Stavelot; Blancs Moussis 	 1
+Monarquía; Bélgica 	 3
+Arquitectura; Abadías; Valonia 	 1
+Arquitectura; Campanarios; Bélgica; Francia 	 1
+Arquitectura; Patrimonio; Urbanismo; Identidad; Bélgica; América Latina; España 	 1
+Carnaval; Binche; Gilles 	 1
+Carnaval; Musée International du Carnaval et du Masque; Binche; Stavelot; Bruselas 	 1
+Arquitectura; Patrimonio; Historia; Binche 	 1
+Arquitectura; Patrimonio; Malmedy 	 1
+Surrealismo; Danza; Patrimonio; Cervezas; Pralines; Ascensor de barcos; Valonia; Simenon, Georges, (1903-1989); Peyo, (1928-1992) 	 3
+Casas; La Habana 	 1
+La Habana; Cuba; Roig de Leuchsenring, Emilio, 1889-1964 	 1
+Esclavitud; Cuba; Montejo, Esteban 	 1
+Emigración asturiana; La Habana 	 2
+Novela gráfica 	 7
+Expresionismo; Novela gráfica 	 3
+Expresionismo; Novela gráfica; Charleroi 	 1
+Erotismo; Novela gráfica 	 1
+Pakistán 	 1
+Frankestein 	 1
+Aventuras; Humorismo; Kid Paddle 	 11
+Aventuras; Astrabán 	 1
+Fantasía; Aventuras; Los Ángeles 	 1
+Aventuras; Roma; Escorpión 	 4
+Aventuras; Roma; Vaticano (residencia papal); Escorpión 	 3
+Aventuras; Vaticano (residencia papal); Roma; Escorpión 	 1
+Aventuras; Siglo XVIII; Roma; Escorpión 	 1
+Aventuras; Escorpión 	 1
+Aventuras; Misterio; Ginebra; Olivier Varèse 	 1
+Ciencia ficción; Estela; Navis 	 13
+Aventuras; Luuna 	 3
+Novela gráfica; Aventuras; India; Londres 	 1
+Novela gráfica; Aventuras; India 	 1
+Aventuras; Novela gráfica; Taj-Majal; India; Londres 	 1
+Aventuras; Novela gráfica; India 	 2
+Aventuras; Policíaco; Estados Unidos; I.R.S. 	 9
+Policíaco; Oeste; James Healer 	 3
+Ciencia ficción; Fantasía; Aventuras; Siglo XXI; Gipsy 	 1
+Aventuras; Ciencia ficción; Fantasía; Siglo XXI; Siberia; Gipsy 	 1
+Aventuras; Ciencia ficción; Fantasía; Siglo XXI; Gipsy 	 1
+Aventuras; Fantasía; Ciencia ficción; Siglo XXI; Gipsy 	 1
+Aborígenes; Ciencia ficción; Fantasía; Siglo XXI; México; Gipsy 	 1
+Aventuras; Ciencia ficción 	 4
+Aventuras; Moscú; Bruselas; Tintín; Milú; GPU 	 1
+Aventuras; Congo; Tintín; Milú; Al Capone, 1899-1947 	 1
+Aventuras; Escocia; Isla Negra; Tintín; Milú 	 1
+Aventuras; TIntín; Milú; Capitán Haddock 	 1
+Aventuras; Palestina; Medio Oriente; Tintín; Milú 	 1
+Aventuras; Tintín; Milú; Profesor Tornasol 	 1
+Aventuras; Ciencia ficción; Luna; Tintín; Milú; Capitán Haddock 	 1
+Aventuras; Suiza; Szohôd (Borduria); Tintín; Milú; Profesor Tornasol 	 1
+Aventuras; Tráfico de armas; Castillo de Moulinsart; Tintín; Milú; Capitán Haddock 	 1
+Aventuras; Castillo de Moulinsart; Tintín; Capitán Haddock; Bianca Castafiore 	 1
+Aventuras; Ciencia ficción; Sidney; Tintín; Capitán Haddock; Profesor Tornasol 	 1
+Aventuras; San Teodoros; Tapiocápolis; Tintín; Capitán Haddock; Profesor Tornasol 	 1
+Aventuras; Arte Alfa; Tintín; Capitán Haddock; Bianca Castafiore 	 1
+Aventuras; Humorismo; Pierre Tombal 	 5
+Humorismo; Redacción del periódico Spirou; Belgica 	 1
+Aventuras; Buck Danny 	 3
+Aventuras; 1572; Flandes; Thyl Ulespiegel 	 1
+Aventuras; Erotismo; Misterio; 1912; Turquía; Estambul; Harén 	 3
+Aventuras; Erotismo; Misterio; Turquía; Estambul; Harén 	 1
+Aventuras; Erotismo; Misterio; Turquía; Estambul; África 	 1
+Aventuras; Erotismo; Misterio; África 	 3
+Johan; Pirluit; Pitufos 	 1
+Aventuras; Tintín; Milú 	 1
+Aventuras; Humorismo; Jojo 	 1
+Patrimonio; Arquitectura; Bruselas 	 1
+Cine; Bélgica; Akerman, Chantal, 1950- 	 2
+Danza; Bélgica 	 1
+Cine; Documental; Valonia 	 1
+Cine; Valonia 	 1
+Cine; Bélgica; Stork, Henri, 1907-1999 	 1
+Cine; Bélgica; Delvaux, André, 1926- 	 1
+Cine; Bélgica; Dardenne, Jean-Pierre, 1951-; Dardenne, Luc, 1954- 	 1
+Cine; Teatro; Valonia; Bruselas; Hänsel, Marion, 1949- 	 1
+Danza; Danzón; La Habana; Cuba; Falide y Pérez, Miguel, 1852-1921 	 1
+Sociedad; Economía; Cultura; Bélgica; Valonia; Flandes; Sax, Adolphe, 1814-1894; Horta, Victor, 1861-1947; Yourcenar, Marguerite, 1903-1987 	 1
+Historia; Cultura; Cocina; Pralines; Cervezas; Manneken Pis; Bélgica; Bruselas; Magritte, René, 1898-1967; Rubens, Petrus Paulus, 1577-1640; Van Eyck, Jan, 1390-1441; Brueghel, Pieter, 1525-1569 	 1
+Museos; Turismo; Bélgica 	 1
+Cultura; Historia; Valonia 	 1
+Patrimonio; Cultura; Historia; Brujas; Bruselas; Louvain 	 1
+Cultura; Historia; Patrimonio; Brujas; Bruselas; Louvain 	 1
+Cultura; Historia; Valonia; Bruselas 	 1
+Historia; Cultura; Cocina; Valonia; Bruselas 	 2
+Historia; Cultura; Cocina 	 1
+Economía; Cultura; Historia; Valonia 	 3
+Patrimonio; Historia; Cultura; Valonia 	 3
+Historia; Patrimonio; Chateau de Jehay; Abbaye de la Paix-Dieu; 1789; Lieja 	 1
+Economía; Cultura; Historia; Bélgica 	 1
+Arqueología; Metodología; Cuba; Caribe 	 2
+Esclavitud; Siglo XIX; Cuba; Arenys 	 1
+Arquitectura; Patrimonio; Regulaciones; La Habana Vieja 	 1
+Sierra del Rosario 	 1
+La Habana Vieja 	 6
+Aventuras; Policíaco; Revolución cubana; Cuba; Fefo 	 3
+Historia; Revolución cubana; Cuba 	 1
+Aventuras; Humorismo; Don Pó 	 1
+Revolución cubana; Cienfuegos Gorriarán, Camilo, 1932-1959 	 1
+Humorismo; Cuba 	 1
+Aventuras; Policíaco; Yami 	 1
+Historia; Guerra de los Diez Años; Cuba; Céspedes y de Quesada, Carlos Manuel de, 1871-1939; Agramonte y Loynaz, Ignacio, 1841-1873 	 1
+Ciencia ficción; Aventuras; Matías Pérez 	 1
+Fantasía; Londres; Suiza; Shelley, Mary, 1797-1851; Frankestein 	 1
+Fantasía; Thriller; Ícaro 	 1
+Cultura; Art nouveau; Bruselas; Unión Europea 	 1
+Arquitectura; Art nouveau; Patrimonio; Bruselas; Namur; Lieja 	 1
+Patrimonio; Cultura; Art nouveau; Bruselas 	 1
+Patrimonio; Cultura; Bruselas 	 1
+Arte moderno; Amberes 	 1
+Sociedad; Religión; Bélgica 	 1
+Economía; Bélgica 	 2
+Agricultura; Bélgica 	 1
+Industria; Bélgica 	 1
+Comercio exterior; Bélgica 	 1
+Bélgica; Unión Europea 	 1
+Transporte; Bélgica 	 1
+Actividad portuaria; Economía; Bélgica 	 1
+Geografía; Bélgica 	 1
+Urbanismo; Bélgica 	 1
+Urbanismo; Demografía; Bélgica 	 1
+Pueblos; Medio ambiente; Valonia; Flandes; Bruselas 	 1
+Política; Bélgica 	 1
+Instituciones internacionales; Bélgica 	 1
+Turismo; Bélgica 	 1
+Geografía; Bélgica; Unión Europea 	 1
+Turismo; Cervezas; Valonia; Bruselas 	 3
+Patrimonio; Campanarios; Binche 	 1
+Patrimonio; Mons; Losseau, Léon, 1869-1949 	 1
+Patrimonio; Industria; Charleroi 	 1
+Patrimonio; Campanarios; Charleroi 	 1
+Patrimonio; Campanarios; Mons 	 1
+Patrimonio; Abadías; Stavelot 	 1
+Turismo; Marcinelle 	 1
+Patrimonio; Historia; Charleroi; Musée de l´Industrie 	 1
+Turismo; Charleroi 	 1
+Museos; Fotografía; Charleroi 	 1
+Patrimonio; Atomium; Bruselas 	 1
+Transporte; Valonia 	 3
+Agricultura; Valonia 	 2
+Valonia 	 2
+Museos; Bruselas 	 1
+Cine; Dibujos animados; Valonia 	 1
+Aventuras; Misterio; Holmos 	 2
+Patrimonio; Valonia 	 1
+Expresionismo 	 1
+Leyendas; Karalius 	 1
+Novela gráfica; Fotografía; Informática; Primera Guerra Mundial; Bruselas; Viena; Rennes; Eva Stern; Frank Stern; Freud, Sigmund, 1856-1939; El Cielo XX 	 1
+Novela gráfica; Fotografía; Erotismo; Informática; Segunda Guerra Mundial; Guerra de Viet Nam; Viena; Bruselas; Florida; Hawai; Eva Stern; Frank Stern
+; Freud, Sigmund, 1856-1939; Fabienne Rouge-Dyeu; El Cielo XX 	 1
+Novela gráfica; Informática; Fotografía; Psicoanálisis; Segunda Guerra Mundial; Bruselas; Viena; San Francisco; Auschwitz (campo de concentración); Eva Stern; Frank Stern; Enwin Stern; Nathan Uriel; El Cielo XX 	 1
+Novela gráfica; Informática; Primera Guerra Mundial; Guerra de Viet Nam; 11 de septiembre de 2001; Bruselas; Hawai; San Francisco; Eva Stern; Frank Stern; Nathan Uriel 	 1
+Erotismo; Aventuras; Comarca La Cenicienta; Leonora 	 1
+Aventuras; Elpidio Valdés 	 1
+Fantasía; Cuba 	 1
+Aventuras; Petit Poilu 	 1
+Aventuras; Historia; Trinidad; La Habana; Humboldt, Alexander von, 1769-1859 	 1
+Aventuras; Fantasía; Aaricia; Thorgal 	 1
+Arquitectura; Alaxis, Brüsel; Calvani, Génova, Mylos; Pâhry, Xhystos; Giovanni Batista; Isidore Louis; Robert Louis Marie de la Barque; Instituto Central de los Archivos, Subsección de Mitos y Leyendas 	 1
+Arquitectura; Alaxis, Brüsel
+; Calvani, Génova, Mylos; Pâhry, Xhystos; Giovanni Batista; Isidore Louis; Paul Cauchie; Instituto Central de los Archivos, Subsección de Mitos y Leyendas 	 1
+Ciudades Oscuras _ERR 	 1
+Arquitectura; Cartografía; Mapas; Roland de Cremer 	 1
+Aventuras; Esclavitud; Tabaco; La Habana; Cuba; Ginebra 	 1
+Historieta; Alemania 	 7
+Manga; Alemania 	 1
+Novela gráfica; Alemania 	 6
+Aventuras; Alemania 	 1
+Historia; Cultura; África 	 1
+Historia; Argelia 	 1
+Historia; España 	 1
+Historieta; Argentina 	 1
+Historieta; Chile 	 1
+Tradición; México; Cristóbal 	 1
+Tradición; México; Milpa Alta; San Cristóbal de las Casas Chiapas; Cristóbal 	 3
+Arquitectura; Alaxis, Sodrovni ; París; Mont Michelson; Mary von Rathen; Agustin Desombres; Axel Wappendorf 	 1
+Dibujo; Manga; Enseñanza 	 1
+Ciencia ficción; Guerra de los Diez Años; Cua 	 1
+Humorismo; Cuba; Claudia 	 1
+Fantasía; Atlántida 	 1
+Historieta; Humorismo; Cuba; Suárez Lemus, Orestes, 1950-; Velazco Hernández, Ángel, 1971-; Blanco Ávila, Francisco, 1930- 	 1
+Historieta; Cuba; Blanco Ávila, Francisco, 1930- 	 1
+Historieta; Cuba; Suárez Lemus, Orestes, 1950-; Muñoz, José, 1942-; Sampayo, Carlos, 1943 	 1
+Historieta; Cuba 	 1
+Historieta; Cuba; Suárez Lemus, Orestes, 1950-; Mederos Pazos, René, 1933-1996; Morante, Rafael, ? 	 1
+Historieta; Cuba; Suárez Lemus, Orestes, 1950-; Martínez, Virgilio, ?; Alben, ? 	 1
+Historieta; Cuba; Alben, ?; Évora, ?; Giménez, Carlos, 1941- 	 1
+Historieta; 
+; Cuba; Giménez, Carlos, 1941-; Martínez, Virgilio, ?; Suárez Lemus, Orestes, 1950- 	 1
+Historieta; Cuba; Giménez, Carlos, 1941-; Pérez Alfaro, Manuel, 1935-; Ramos Cedraz, Antonio Luis, 1945 	 1
+Historieta; Cuba; Martínez, Virgilio, ? 	 1
+Historieta; Cuba; Pérez Alfaro, Manuel, 1935-; Blanco Ávila, Francisco, 1930- 	 1
+Historieta; Cuba; Avilés, Cecilio, 1944- 	 1
+Historieta; Cuba; Suárez Lemus, Orestes, 1950-; Oesterheld, Héctor Germán, 1919-1977; Breccia, Alberto, 1919-1993 	 1
+Historieta; Cuba; Avilés, Cecilio, 1944-; Padrón, Juan, 1947-; Muñoz, José, 1942- 	 1
+Ciencias aplicadas; Transporte; Política; Valonia; Lieja 	 4
+Crisis energética; Transporte; Moda; Valonia 	 3
+Carnaval; Cine; Informática; Valonia; Stavelot; Binche 	 1
+Carnaval; Cine; Informática; Valonia; Binche; Stavelot 	 1
+Música cubana; La Habana Vieja; Martí Pérez, José, 1853-1895 	 1
+Historieta; Manga; Cine; España 	 1
+México-historieta _ERR 	 2
+Leyendas; Cuba 	 1
+Policíaco; Aventuras 	 1
+Oeste 	 1
+Aventuras; Siglo XVII 	 1
+Manga; Historietistas; Cocina; Japón 	 2
+Patrimonio; Arquitectura; Cultura; Convento de Santa Clara; Semana Belga en el Centro Histórico; La Habana; Estorino, Abelardo, 1925-; Gimeno, Isavel, 1951-; Díaz, Aniceto Mario, 1952- 	 1
+Convento de Belén; Sacra Catedral Ortodoxa de la Virgen de Kazán; Calle Obispo; Miranda Cancela, María Elina, 1944-; García Portela, Mario, 1942-; Carballo, Amelia, 1951- 	 1
+Patrimonio; Artes plásticas; Historieta; Navío de línea Santísima Trinidad; X Bienal de La Habana; La Habana; Cuba; Cairo Ballester, Ana,1949-; López Fernández, Yarovi, 1970-; Betancourt y Molina, Agustín de, 1758-1824 	 1
+Patrimonio; Arquitectura; Cultura; Planetario astronómico «Rosa Elena Simeón»; Cenro cultural Antiguos Almacenes de depósitos San José ; Chávez, Rebeca; Céspedes y de Quesada, Carlos Manuel de, 1871-1939; Alvisa, Lidzie, 1969-; Academia Cubana de la Lengua 	 1
+Cuba-historieta _ERR 	 57
+**VACIO** _ERR 	 23
+Chile-historieta/Brasil-historieta/Cuba-historieta _ERR 	 2
+Costa Rica-historieta/Perú-historieta/Marcos, Pablo/Argentina-historieta/Caricatura/Chile-historieta _ERR 	 2
+Argentina-historieta/Chile-historieta/Caricatura/Martínez, Virgilio _ERR 	 1
+Cuba-caricatura/Caricatura/Chile-historieta _ERR 	 2
+Cuba-caricatura/Caricatura/Paraguay-historieta _ERR 	 1
+Cuba-historieta/Landaluze, Víctor Patricio/Chile-historieta _ERR 	 2
+Oesterheld, Héctor Germán/Chile-historieta/Brasil-historieta _ERR 	 2
+Brasil-historieta _ERR 	 2
+Oesterheld, Héctor Germán/Chile-historieta _ERR 	 1
+Oesterheld, Héctor Germán/Colombia-caricatura/Brasil-historieta/Argentina-historieta _ERR 	 2
+Oesterheld, Héctor Germán/México-historieta/Cuba-historieta _ERR 	 2
+Argentina-historieta/Oesterheld, Hector Germán _ERR 	 2
+Perú-historieta/Oesterheld, Héctor Germán/Breccia, Alberto/Brasil-historieta/Literatura-historieta _ERR 	 2
+Cuba-caricatura/Oesterheld, Héctor Germán/Cuba-historieta _ERR 	 2
+Cuba-caricatura/México-historieta/Oesterheld, Héctor Germán/Mosquera, Nani _ERR 	 3
+Argentina-historieta _ERR 	 3
+México-historieta/Brasil-historieta/Venezuela-historieta _ERR 	 2
+Oesterheld, Héctor Germán _ERR 	 1
+Oesterheld, Héctor Germán/Colombia-historieta/Brasil-historieta/México-historieta _ERR 	 2
+México-historieta/Nuez, René de la/Oestreheld, Héctor Germán/Uruguay-historieta/Bolivia-historieta/Bolivia-caricatura _ERR 	 3
+Cuba-historieta/Chile-historieta/Oesterheld, Héctor Germán _ERR 	 2
+Elpidio Valdés/Argentina-historieta/Paraguay-historieta _ERR 	 2
+Chile-caricatura/Ecuador-historieta/Argentina-historieta/Historieta-utilidad _ERR 	 1
+México-historieta/Brasil-historieta/Panamá-historieta _ERR 	 1
+Puerto Rico-historieta/Argentina-historieta/México-historieta _ERR 	 1
+San Simeón-historia _ERR 	 1
+Brel, Jacques _ERR 	 1
+Brel, Jacques/Bélgica-música _ERR 	 1
+Valonia-logística _ERR 	 1
+Valonia-economía/Valonia-cultura _ERR 	 1
+Valonia-tecnología/Valonia-energía/Bélgica-historieta _ERR 	 1
+Valonia-fotografía/Sumkay, Jim/Valonia-educación superior/Bruselas-educación superior/Dardenne/Bélgica-cine _ERR 	 1
+Bruselas-turismo/Valonia-turismo/Magritte, René/Hergé/Valonia-culinaria _ERR 	 1
+Valonia-turismo/Valonia-culinaria/Valonia-economía/Bélgica-moda/Valonia-cine/Bélgica-historieta _ERR 	 1
+Bélgica- Europa/Bélgica-biotecnología/Bélgica-Industria/Bélgica-agricultura/Bélgica-Cultura/Bélgica-enseñanza/Bélgica-Relaciones Internacionales _ERR 	 1
+Caricatura; Chile; Ecuador; Argentina 	 2
+Puerto Rico; Argentina; México 	 1
+Arquitectura; Policíaco; Maison Autrique 	 1
+Fantasía; Policíaco 	 5
+Fantasía; Leyendas 	 1
+Aventuras; Policíaco; Estados Unidos; México; I.R.S. 	 1
+Aventuras; Humorismo; KId Paddle 	 1
+Aventuras; Misterio; Denarios; Blake; Mortimer; Judas Iscariote (?-28 d.C.) 	 1
+Aventuras; Espionaje; Washington D.C.; Estados Unidos; XIII 	 2
+Aventuras; Lord Guinea 	 1
+Historia; Siglo XX; Segunda Guerra Mundial; Unión Soviética; Polonia 	 1
+Dibujo; Caricatura; Bélgica 	 1
+Fantasía; Little Nemo 	 2
+Aventuras; Oeste; Lucky Luke; James, Jesse, 1847-1882 	 1
+Historia; Siglo XVI; Lessines; Flandes 	 1
+Aventuras; Oeste; Jerry Spring 	 2
+Aventuras; Oeste; Siglo XIII; Corentin 	 1
+Aventuras; Policíaco; Gil Jourdan 	 4
+Arquitectura; Maison Autrique 	 2
+Arquitectura; Armilia; Mary von Rathen 	 1
+Arquitectura; Samaris 	 1
+Aventuras; Misterio; Denarios; Blake; Mortimer 	 4
+Patrimonio; La Habana; Cuba; Roig de Leuchsenring, Emilio, 1889-1964 	 1
+Aventuras; Misterio; Policíaco; India; Bruselas; Blake; Mortimer; Olrik 	 1
+Aventuras; Humor; Pierre Tombal 	 1
+Aventuras; Cordillera de los Andes; Jeanette Pointu 	 1
+Aventuras; MIsterio; Jeanette Pointu 	 1
+Aventuras; Jeanette Pointu 	 2
+Aventuras; Humorismo; Léonard 	 2
+Humorismo; Estados Unidos; Calvin; Hobbes 	 2
+Aventuras; Humorismo; Benoît Brisefer 	 1
+Historia; Guerra de los Diez Años; Guerra del ´95; Cuba; Gómez Báez, Máximo, 1836-1905; Maceo Grajales, Antonio, 1845-1896 	 1
+Arqueología; Chile 	 1
+Aventuras; Humorismo; Duendy 	 2
+Aventuras; Fantasía; Dríade 	 1
+Humorismo; Policíaco; Ciencia ficción 	 1
+Fantasía heroica 	 1
+Dibujo 	 1
+Aventuras; Deportes; Rally 	 1
+Policíaco; Sébastien Bloche 	 2
+Policíaco; Humorismo 	 1
+Aventuras; Fantasía heroica; Chevalier ardent 	 2
+Enseñanza; Tintín 	 2
+Enseñanza; Transporte; Tintín 	 1
+Humor; Aventuras; Bob; Bobette 	 8
+Aventuras; Venecia; Corto Maltese 	 2
+Autobiografías; Irán; Austria 	 1
+Aventuras; Fantasía; Humorismo; Siglo XXI; La Habana 	 3
+Aventuras; Ciencia ficción; La Habana; Alemania; Humboldt, Alexander von, 1769-1859 	 1
+Novela gráfica; Francia 	 2
+Novela gráfica; Siglo XX; Francia 	 1
+Leyendas; Fantasía; África 	 1
+Fantasía; Arq 	 1
+; Manga 	 2
+Aventuras; Ciencia ficción; Manga; Japón; Keroro 	 1
+Fantasía; Manga; Japón 	 1
+Novela gráfica; Dibujo 	 1
+Ciencia ficción; Fantasía 	 1
+Aventuras; Erotismo; Misterio; India 	 1
+Aventuras; Espionaje; Washington D.C.; Estados Unidos; Berlín; XIII 	 1
+Aventuras; Espionaje; Washington D.C.; Estados Unidos; Bielorrusia; XIII 	 1
+Aventuras; Siglo XVII; Rusia; Aymar de Bois-Maury 	 1
+Historieta; Historia; Enseñanza 	 1
+Historia; Dibujo; Enseñanza 	 1
+Capitán Haddock 	 1
+Profesor Tornasol 	 1
+Caricatura; Humorismo; América Latina; Europa; Cuba 	 1
+Caricatura; Cuba 	 2
+Novela gráfica; Erotismo; Maldición; Revolución Francesa, 1789-1799; París; Bernard Sambre; Sara Sambre; Julie 	 3
+Pintura belga; Bélgica; Nueva York; La Habana; Vekemans, Bruno, 1952- 	 1
+Dibujos animados; Bélgica; Caméra-etc 	 1
+Dibujos animados; Enseñanza; Bélgica; Caméra-etc 	 1
+Arquitectura; Patrimonio; Palais de Justice; Maison Autrique; Bruselas; Schaerbeek; Horta, Victor, 1861-1947; Brueghel, Pieter, 1525-1569; Magritte, René, 1898-1967 	 1
+Cocina; Cervezas; Bélgica; Leuven; Leffe 	 1
+Cocina; Cervezas; Bélgica; Dominus 	 1
+Cocina; Cervezas; Bélgica; Timmermans 	 1
+Cocina; Cervezas; Bélgica; Anthony Martin´s 	 1
+Turismo; Bertrix 	 1
+Economía; Política; Flandes 	 1
+Fábricas; Transporte; Industria metalúrgica; Segunda Guerra Mundial; Bélgica; Baume & Marpent 	 1
+Minas; Carbón; Siglo XX; La Louvière; Bois-du-Luc 	 1
+Cervezas; La Habana; Cuba 	 1
+Educación; Siglo XIX; Cuba 	 1
+Siglo XVI; Siglo XIX; Siglo XVIII; La Habana 	 1
+Comunicación 	 1
+Historieta; Alemania; Dieck, Martin Tom, 1963-; Bellstorf, Arne, 1979-; Feuchtenberger, Anke, 1963-; Flix, 1976-; Harder, Jens, 1970- 	 1
+Novela gráfica; Manga 	 1
+Humorismo; Alemania; Hieronymus B. 	 1
+Novela gráfica; Humorismo; Fantasía 	 1
+Historieta experimental; Expresionismo 	 1
+Novela gráfica; Espionaje; Policíaco; Tokyo; Alemania; Sorge, Richard, 1895-1944 	 1
+Novela gráfica; Fantasía 	 1

@@ -1,0 +1,13 @@
+Español 	 497
+Francés 	 278
+Inglés-Francés 	 7
+Inglés 	 31
+Alemán 	 23
+español 	 131
+? 	 1
+francés 	 7
+inglés 	 1
+francés/neerlandés 	 1
+Inglés-Español 	 1
+Francés-Neerlandés 	 5
+Alemán-Inglés 	 1
